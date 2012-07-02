@@ -13,7 +13,7 @@
         <translation language="de"><![CDATA[Das Synonym für den Suchbegriff "%1$s" wurde hinzugefügt.]]></translation>
         <translation language="es"><![CDATA[El sinonimo para el término de búsqueda "%1$s" fue agregado.]]></translation>
         <translation language="uk"><![CDATA[Синонім для "%1$s" додано. ]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Synonymum pro hledaný výraz "%1$s" bylo přidáno.]]></translation></item>
       <item type="message" name="ConfirmDeleteSynonym">
         <translation language="nl"><![CDATA[Ben je zeker dat je de synoniemen voor zoekterm "%1$s" wil verwijderen?]]></translation>
         <translation language="en"><![CDATA[Are you sure you want to delete the synonyms for the searchterm "%1$s"?]]></translation>
@@ -24,7 +24,7 @@
         <translation language="hu"><![CDATA[Biztos törlöd a(z) "%1$s" keresési szinonímát?]]></translation>
         <translation language="de"><![CDATA[Willst du die Synonyme für den Suchbegriff "%1$s" wirklich löschen?]]></translation>
         <translation language="es"><![CDATA[¿Estás seguro de eliminar el sinonimo para el términ de búsqueda "%1$s"?]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Jste si jisti, že chcete odstranit synonyma pro hledaný výraz "%1$s"?]]></translation></item>
       <item type="message" name="DeletedSynonym">
         <translation language="nl"><![CDATA[Het synoniem voor zoekterm "%1$s" werd verwijderd.]]></translation>
         <translation language="en"><![CDATA[The synonym for the searchterm "%1$s" was deleted.]]></translation>
@@ -35,7 +35,7 @@
         <translation language="fr"><![CDATA[Le synonyme pour le terme "%1$s" a été effacé.]]></translation>
         <translation language="de"><![CDATA[Das Synonym für den Suchbegriff "%1$s" wurde gelöscht.]]></translation>
         <translation language="es"><![CDATA[El sinonimo para el término de búsqueda "%1$s" fue eliminado.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Synonymum pro hledaný výraz "%1$s" bylo odstraněno.]]></translation></item>
       <item type="message" name="EditedSynonym">
         <translation language="nl"><![CDATA[Het synoniem voor zoekterm "%1$s" werd opgeslagen.]]></translation>
         <translation language="en"><![CDATA[The synonym for the searchterm "%1$s" was saved.]]></translation>
@@ -46,7 +46,7 @@
         <translation language="fr"><![CDATA[Le synonyme pour le terme "%1$s" a été enregistré.]]></translation>
         <translation language="de"><![CDATA[Das Synonym für den Suchbegriff "%1$s" wurde gespeichert.]]></translation>
         <translation language="es"><![CDATA[El sinonimo para el término de búsqueda "%1$s" fue guardado.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Synonymum pro hledaný výraz "%1$s" bylo uloženo.]]></translation></item>
       <item type="message" name="HelpWeight">
         <translation language="nl"><![CDATA[Het standaard gewicht is 1. Verhoog deze waarde om de belangrijkheid van de resultaten van een bepaalde module te verhogen.]]></translation>
         <translation language="en"><![CDATA[The default weight is 1. Increase the value to increase the importance of results from a specific module.]]></translation>
@@ -57,7 +57,7 @@
         <translation language="fr"><![CDATA[Le poids par défaut est 1. Si vous souhaitez donner plus d'importance à un module dans les résultats de recherche.]]></translation>
         <translation language="de"><![CDATA[Das Standard-Gewicht ist 1. Erhöhe den Wert wenn du Suchresultate von bestimmten Modulen mehr Wichtigkeit verleihen willst.]]></translation>
         <translation language="es"><![CDATA[El peso por defecto es 1. Aumenta el valor para aumentar la importancia de un módulo especifico.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Výchozí váha je 1. Zvyšte hodnotu pro zvýšení významu výsledků z konkrétního modulu.]]></translation></item>
       <item type="message" name="HelpWeightGeneral">
         <translation language="nl"><![CDATA[Definieer de belangrijkheid van iedere module in de zoekresultaten.]]></translation>
         <translation language="en"><![CDATA[Define the importance of each module in search results here.]]></translation>
@@ -68,7 +68,7 @@
         <translation language="fr"><![CDATA[Définir l'importance de chaque module dans les résultats de recherche.]]></translation>
         <translation language="de"><![CDATA[Hier kannst du die Wichtigkeit der einzelnen Module für die Suchresultate bestimmen.]]></translation>
         <translation language="es"><![CDATA[Define la importancia de cada módulo en los resultados de búsqueda aquí.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Definujte význam každého modulu ve výsledcích vyhledávání zde.]]></translation></item>
       <item type="message" name="IncludeInSearch">
         <translation language="nl"><![CDATA[Opnemen in de zoekresultaten?]]></translation>
         <translation language="en"><![CDATA[Include in search results?]]></translation>
@@ -80,7 +80,7 @@
         <translation language="fr"><![CDATA[Inclure dans les résultats de recherche ?]]></translation>
         <translation language="es"><![CDATA[¿Incluir en resultados de búsqueda?]]></translation>
         <translation language="tr"><![CDATA[Arama sonuçlarına eklensin mi?]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Zahrnout do výsledků vyhledávání?]]></translation></item>
       <item type="message" name="NoStatistics">
         <translation language="nl"><![CDATA[Er zijn nog geen statistieken.]]></translation>
         <translation language="en"><![CDATA[There are no statistics yet.]]></translation>
@@ -91,7 +91,7 @@
         <translation language="hu"><![CDATA[Nincsenek még statisztikák.]]></translation>
         <translation language="fr"><![CDATA[Il n'y a pas encore de statistiques.]]></translation>
         <translation language="es"><![CDATA[Aún no hay estadísticas.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné statistiky]]></translation></item>
       <item type="message" name="NoSynonyms">
         <translation language="nl"><![CDATA[Er zijn nog geen synoniemen. <a href="%1$s">Voeg het eerste synoniem toe</a>.]]></translation>
         <translation language="en"><![CDATA[There are no synonyms yet. <a href="%1$s">Add the first synonym</a>.]]></translation>
@@ -103,7 +103,7 @@
         <translation language="fr"><![CDATA[Il n'y a pas encore de synonymes. <a href="%1$s">Ajoutez le premier synonyme</a>.]]></translation>
         <translation language="es"><![CDATA[Aún no hay sinónimos <a href="%1$s">Agregar el primer sinónimo</a>.]]></translation>
         <translation language="tr"><![CDATA[Henüz hiçbir eş anlamlı kelime bulunmaktadır. <a href="%1$s"> ilk eşanlamlı kelimeyi ekleyin </ a>.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné synonyma <a href="%1$s">Přidejte první synonymum</ a>.]]></translation></item>
       <item type="message" name="NoSynonymsBox">
         <translation language="nl"><![CDATA[Er zijn nog geen synoniemen.]]></translation>
         <translation language="en"><![CDATA[There are no synonyms yet.]]></translation>
@@ -114,7 +114,7 @@
         <translation language="hu"><![CDATA[Nincsenek még szinonímák.]]></translation>
         <translation language="fr"><![CDATA[Il n'y a pas encore de synonymes.]]></translation>
         <translation language="es"><![CDATA[Aún no hay sinonimos.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné synonyma.]]></translation></item>
       <item type="label" name="AddSynonym">
         <translation language="nl"><![CDATA[synoniem toevoegen]]></translation>
         <translation language="en"><![CDATA[add synonym]]></translation>
@@ -127,7 +127,7 @@
         <translation language="es"><![CDATA[agregar sinónimo]]></translation>
         <translation language="uk"><![CDATA[Додати синонім]]></translation>
         <translation language="lt"><![CDATA[naujas sinonimas]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[přidat synonymum]]></translation></item>
       <item type="label" name="DeleteSynonym">
         <translation language="nl"><![CDATA[synoniem verwijderen]]></translation>
         <translation language="en"><![CDATA[delete synonym]]></translation>
@@ -140,7 +140,7 @@
         <translation language="es"><![CDATA[eliminar sinónimo]]></translation>
         <translation language="uk"><![CDATA[Видалити синонім]]></translation>
         <translation language="lt"><![CDATA[trinti sinonimą]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[odstranit synonymum]]></translation></item>
       <item type="label" name="EditSynonym">
         <translation language="nl"><![CDATA[synoniem bewerken]]></translation>
         <translation language="en"><![CDATA[edit synonym]]></translation>
@@ -152,7 +152,7 @@
         <translation language="hu"><![CDATA[szinoníma szerkesztése]]></translation>
         <translation language="es"><![CDATA[editar sinónimo]]></translation>
         <translation language="uk"><![CDATA[Змінити синонім]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Upravit synonymum]]></translation></item>
       <item type="label" name="ItemsForAutocomplete">
         <translation language="nl"><![CDATA[Items in autocomplete (zoekresultaten: suggesties zoekwoorden)]]></translation>
         <translation language="en"><![CDATA[Items in autocomplete (search results: search term suggestions)]]></translation>
@@ -164,7 +164,7 @@
         <translation language="de"><![CDATA[Einträge in der Auto-Vervollständigung (Such Resultate: Suchbegriff Vorschläge)]]></translation>
         <translation language="es"><![CDATA[Objetos con autocompletado (resultados de búsqueda: sugerencia de términos de búsqueda)]]></translation>
         <translation language="uk"><![CDATA[Значення для автозаповнення (результати: приклади запитів)]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Položek v automatickém dokončování (Výsledky vyhledávání: návrhy hledaných výrazů)]]></translation></item>
       <item type="label" name="ItemsForAutosuggest">
         <translation language="nl"><![CDATA[Items in autosuggest (zoek widget: resultaten)]]></translation>
         <translation language="en"><![CDATA[Items in autosuggest (search widget: results)]]></translation>
@@ -176,7 +176,7 @@
         <translation language="de"><![CDATA[Einträge im Autosuggest (Such Widget: Resultate)]]></translation>
         <translation language="es"><![CDATA[Objetos en sugerencia automática (widget de búsqueda: resultados)]]></translation>
         <translation language="uk"><![CDATA[Значення для автозаповнення (пошук віджета: результати)]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Položek v autosuggest (Vyhledávání - widget: výsledky)]]></translation></item>
       <item type="label" name="ModuleWeight">
         <translation language="nl"><![CDATA[module gewicht]]></translation>
         <translation language="en"><![CDATA[module weight]]></translation>
@@ -188,7 +188,7 @@
         <translation language="hu"><![CDATA[modul mélység]]></translation>
         <translation language="es"><![CDATA[peso del modulo]]></translation>
         <translation language="uk"><![CDATA[Важливість модуля]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[váha modulu]]></translation></item>
       <item type="label" name="SearchedOn">
         <translation language="nl"><![CDATA[gezocht op]]></translation>
         <translation language="en"><![CDATA[searched on]]></translation>
@@ -200,7 +200,7 @@
         <translation language="de"><![CDATA[gesucht am]]></translation>
         <translation language="es"><![CDATA[búsqueda en]]></translation>
         <translation language="uk"><![CDATA[Пошук по]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[hladáno]]></translation></item>
       <item type="error" name="SynonymIsRequired">
         <translation language="nl"><![CDATA[Synoniemen zijn verplicht.]]></translation>
         <translation language="en"><![CDATA[Synonyms are required.]]></translation>
@@ -211,7 +211,7 @@
         <translation language="hu"><![CDATA[A szinoníma kötelező.]]></translation>
         <translation language="de"><![CDATA[Synonyme werden benötigt.]]></translation>
         <translation language="es"><![CDATA[Se requieren sinónimos.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Synonyma jsou povinné.]]></translation></item>
       <item type="error" name="TermExists">
         <translation language="nl"><![CDATA[Synoniemen voor deze zoekterm bestaan reeds.]]></translation>
         <translation language="en"><![CDATA[Synonyms for this searchterm already exist.]]></translation>
@@ -222,7 +222,7 @@
         <translation language="hu"><![CDATA[Szinonimák erre a keresési kifejezésre már léteznek.]]></translation>
         <translation language="de"><![CDATA[Synonyme für diesen Suchbegriff existieren bereits.]]></translation>
         <translation language="es"><![CDATA[Ya existen sinónimos para este término de búsqueda.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Synonyma pro tento hledaný výraz již existují.]]></translation></item>
       <item type="error" name="TermIsRequired">
         <translation language="nl"><![CDATA[De zoekterm is verplicht.]]></translation>
         <translation language="en"><![CDATA[The searchterm is required.]]></translation>
@@ -234,7 +234,7 @@
         <translation language="de"><![CDATA[Der Suchbegriff wird benötigt.]]></translation>
         <translation language="es"><![CDATA[Se requiere el término de búsqueda.]]></translation>
         <translation language="tr"><![CDATA[Arama terimi gereklidir.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Hledaný výraz je povinný.]]></translation></item>
       <item type="error" name="WeightNotNumeric">
         <translation language="nl"><![CDATA[Het gewicht moet numeriek zijn.]]></translation>
         <translation language="en"><![CDATA[Het gewicht moet numeriek zijn]]></translation>
@@ -246,7 +246,7 @@
         <translation language="de"><![CDATA[Das Gewicht muss numerisch sein.]]></translation>
         <translation language="es"><![CDATA[El peso debe de ser numérico]]></translation>
         <translation language="tr"><![CDATA[Ağırlık sayısal olmalıdır.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Váha musí být číslo.]]></translation></item>
     </search>
   </backend>
 </locale>

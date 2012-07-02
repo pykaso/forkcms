@@ -15,7 +15,7 @@
         <translation language="uk"><![CDATA[Додати цільову сторінку]]></translation>
         <translation language="lt"><![CDATA[naujas nukreipimo puslapis]]></translation>
         <translation language="sv"><![CDATA[lägg till landingssida]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[přidat vstupní stránku]]></translation></item>
       <item type="label" name="AllStatistics">
         <translation language="nl"><![CDATA[alle statistieken]]></translation>
         <translation language="en"><![CDATA[all statistics]]></translation>
@@ -29,7 +29,7 @@
         <translation language="uk"><![CDATA[Вся статистика]]></translation>
         <translation language="lt"><![CDATA[visa statistika]]></translation>
         <translation language="sv"><![CDATA[alla statistik]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[všechny statistiky]]></translation></item>
       <item type="label" name="AverageTimeOnPage">
         <translation language="nl"><![CDATA[gemiddelde tijd op pagina]]></translation>
         <translation language="en"><![CDATA[average time on page]]></translation>
@@ -43,7 +43,7 @@
         <translation language="uk"><![CDATA[Середній час на сторінкці]]></translation>
         <translation language="lt"><![CDATA[vidutinis laikas puslapyje]]></translation>
         <translation language="sv"><![CDATA[genomsnitts tid på sida]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[průměrná doba na stránce]]></translation></item>
       <item type="label" name="AverageTimeOnSite">
         <translation language="nl"><![CDATA[gemiddelde tijd op site]]></translation>
         <translation language="en"><![CDATA[average time on site]]></translation>
@@ -57,7 +57,7 @@
         <translation language="uk"><![CDATA[Середній час на сайті]]></translation>
         <translation language="lt"><![CDATA[vidutinis laikas tinklapyje]]></translation>
         <translation language="sv"><![CDATA[genomsnitts tid på sajt]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[průměrná doba na webu]]></translation></item>
       <item type="label" name="BounceRate">
         <translation language="nl"><![CDATA[weigeringspercentage]]></translation>
         <translation language="en"><![CDATA[bounce rate]]></translation>
@@ -71,7 +71,7 @@
         <translation language="uk"><![CDATA[Показник відмов]]></translation>
         <translation language="sv"><![CDATA[studs nivå]]></translation>
         <translation language="lt"><![CDATA[atsisakymo lygis]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[míra opuštění]]></translation></item>
       <item type="label" name="Bounces">
         <translation language="nl"><![CDATA[weigeringen]]></translation>
         <translation language="en"><![CDATA[bounces]]></translation>
@@ -85,7 +85,7 @@
         <translation language="uk"><![CDATA[Відмови]]></translation>
         <translation language="sv"><![CDATA[studsar]]></translation>
         <translation language="lt"><![CDATA[atsisakymai]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[opuštění]]></translation></item>
       <item type="label" name="ChangePeriod">
         <translation language="nl"><![CDATA[periode aanpassen]]></translation>
         <translation language="en"><![CDATA[change period]]></translation>
@@ -99,7 +99,7 @@
         <translation language="uk"><![CDATA[Період змін]]></translation>
         <translation language="sv"><![CDATA[ändra period]]></translation>
         <translation language="lt"><![CDATA[keisti periodą]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[změnit za období]]></translation></item>
       <item type="label" name="ChooseThisAccount">
         <translation language="nl"><![CDATA[kies deze account]]></translation>
         <translation language="en"><![CDATA[choose this account]]></translation>
@@ -113,7 +113,7 @@
         <translation language="uk"><![CDATA[Обрати цей акаунт]]></translation>
         <translation language="sv"><![CDATA[välj detta konto]]></translation>
         <translation language="lt"><![CDATA[pasirinkite šįą sąskaitą]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[vybrat tento účet]]></translation></item>
       <item type="label" name="DirectTraffic">
         <translation language="nl"><![CDATA[direct verkeer]]></translation>
         <translation language="en"><![CDATA[direct traffic]]></translation>
@@ -127,7 +127,7 @@
         <translation language="uk"><![CDATA[Прямий трафік]]></translation>
         <translation language="sv"><![CDATA[direkttrafik]]></translation>
         <translation language="lt"><![CDATA[tiesioginis srautas]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[přímý provoz]]></translation></item>
       <item type="label" name="Entrances">
         <translation language="nl"><![CDATA[instappunten]]></translation>
         <translation language="en"><![CDATA[entrances]]></translation>
@@ -140,7 +140,7 @@
         <translation language="es"><![CDATA[entradas]]></translation>
         <translation language="uk"><![CDATA[Вхід]]></translation>
         <translation language="sv"><![CDATA[ingångar]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[vstupní body]]></translation></item>
       <item type="label" name="ExitRate">
         <translation language="nl"><![CDATA[uitstappercentage]]></translation>
         <translation language="en"><![CDATA[exit rate]]></translation>
@@ -153,7 +153,7 @@
         <translation language="es"><![CDATA[promedio de salida]]></translation>
         <translation language="uk"><![CDATA[Статистика виходів]]></translation>
         <translation language="sv"><![CDATA[avsluts nivå]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[výstupní míra]]></translation></item>
       <item type="label" name="Exits">
         <translation language="nl"><![CDATA[uitstappunten]]></translation>
         <translation language="en"><![CDATA[exits]]></translation>
@@ -166,7 +166,7 @@
         <translation language="es"><![CDATA[salidas]]></translation>
         <translation language="uk"><![CDATA[Виходи]]></translation>
         <translation language="sv"><![CDATA[avslut]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[odchody]]></translation></item>
       <item type="label" name="GetLiveData">
         <translation language="nl"><![CDATA[haal live gegevens op]]></translation>
         <translation language="en"><![CDATA[collect live data]]></translation>
@@ -180,7 +180,7 @@
         <translation language="uk"><![CDATA[Збір даних у реальному часі]]></translation>
         <translation language="sv"><![CDATA[hämta live data]]></translation>
         <translation language="lt"><![CDATA[rinkti online duomenis]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[sběr živých dat]]></translation></item>
       <item type="label" name="GoogleAnalyticsLink">
         <translation language="nl"><![CDATA[koppeling met Google Analytics]]></translation>
         <translation language="en"><![CDATA[link to Google Analytics]]></translation>
@@ -194,7 +194,7 @@
         <translation language="uk"><![CDATA[З'єднання з Google Analytics]]></translation>
         <translation language="sv"><![CDATA[länk till Google Analytics]]></translation>
         <translation language="lt"><![CDATA[nurodo į Google Analytics]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[odkaz na Google služby Analytics]]></translation></item>
       <item type="label" name="LinkedAccount">
         <translation language="nl"><![CDATA[gekoppelde account]]></translation>
         <translation language="en"><![CDATA[linked account]]></translation>
@@ -207,7 +207,7 @@
         <translation language="es"><![CDATA[cuenta vinculada]]></translation>
         <translation language="uk"><![CDATA[Зв'язані аккаунти]]></translation>
         <translation language="sv"><![CDATA[länkat konto]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[propojené účet]]></translation></item>
       <item type="label" name="LinkedProfile">
         <translation language="nl"><![CDATA[gekoppeld profiel]]></translation>
         <translation language="en"><![CDATA[linked profile]]></translation>
@@ -220,7 +220,7 @@
         <translation language="es"><![CDATA[perfil vinculado]]></translation>
         <translation language="uk"><![CDATA[Зв'язані профілі]]></translation>
         <translation language="sv"><![CDATA[länkad profil]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[propojené profil]]></translation></item>
       <item type="label" name="LinkThisProfile">
         <translation language="nl"><![CDATA[koppel dit profiel]]></translation>
         <translation language="en"><![CDATA[link this profile]]></translation>
@@ -233,7 +233,7 @@
         <translation language="es"><![CDATA[enlazar este perfil]]></translation>
         <translation language="uk"><![CDATA[Зв'язати з профілем]]></translation>
         <translation language="sv"><![CDATA[länka detta profil]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[propojit tento profil]]></translation></item>
       <item type="label" name="NewVisitsPercentage">
         <translation language="nl"><![CDATA[nieuw bezoekpercentage]]></translation>
         <translation language="en"><![CDATA[new visits percentage]]></translation>
@@ -246,7 +246,7 @@
         <translation language="es"><![CDATA[porcertaje de nuevas visitas]]></translation>
         <translation language="uk"><![CDATA[Нові відвідування %]]></translation>
         <translation language="sv"><![CDATA[ny besökare procent]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[noví návštěvníci procento]]></translation></item>
       <item type="label" name="PagesPerVisit">
         <translation language="nl"><![CDATA[pagina's per bezoek]]></translation>
         <translation language="en"><![CDATA[pages per visit]]></translation>
@@ -259,7 +259,7 @@
         <translation language="es"><![CDATA[páginaes por visita]]></translation>
         <translation language="uk"><![CDATA[Сторінок за візит]]></translation>
         <translation language="sv"><![CDATA[sidor per besök]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[stránek za návštěvu]]></translation></item>
       <item type="label" name="Pageviews">
         <translation language="nl"><![CDATA[paginaweergaves]]></translation>
         <translation language="en"><![CDATA[pageviews]]></translation>
@@ -272,7 +272,7 @@
         <translation language="es"><![CDATA[vista de páginas]]></translation>
         <translation language="uk"><![CDATA[Пекреглядів сторінок]]></translation>
         <translation language="sv"><![CDATA[sidvisningar]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[zobrazení stránek]]></translation></item>
       <item type="label" name="PageviewsByTrafficSources">
         <translation language="nl"><![CDATA[paginaweergaves per verkeersbron]]></translation>
         <translation language="en"><![CDATA[pageviews per traffic source]]></translation>
@@ -285,7 +285,7 @@
         <translation language="es"><![CDATA[vista de páginas por origen de tráfico]]></translation>
         <translation language="uk"><![CDATA[Переглядів за один візит]]></translation>
         <translation language="sv"><![CDATA[sidvisningar per trafikkälla]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[zobrazení stránek za provozu zdroj]]></translation></item>
       <item type="label" name="PercentageOfSiteTotal">
         <translation language="nl"><![CDATA[percentage van sitetotaal]]></translation>
         <translation language="en"><![CDATA[percentage of site total]]></translation>
@@ -298,7 +298,7 @@
         <translation language="es"><![CDATA[Porcentaje total del sitio]]></translation>
         <translation language="uk"><![CDATA[Всього %]]></translation>
         <translation language="sv"><![CDATA[procent av sajt total]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[procento z celkového počtu stránek]]></translation></item>
       <item type="label" name="PeriodStatistics">
         <translation language="nl"><![CDATA[periode statistieken]]></translation>
         <translation language="en"><![CDATA[period statistics]]></translation>
@@ -311,7 +311,7 @@
         <translation language="es"><![CDATA[estadisticas del periodo]]></translation>
         <translation language="uk"><![CDATA[Період статистики]]></translation>
         <translation language="sv"><![CDATA[periodstatistik]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[za období statistika]]></translation></item>
       <item type="label" name="Referral">
         <translation language="nl"><![CDATA[verwijzende site]]></translation>
         <translation language="en"><![CDATA[referring site]]></translation>
@@ -324,7 +324,7 @@
         <translation language="es"><![CDATA[sitio de referencia]]></translation>
         <translation language="uk"><![CDATA[Сайти що посилаються]]></translation>
         <translation language="sv"><![CDATA[refererande sajt]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[odkazující webu]]></translation></item>
       <item type="label" name="SearchEngines">
         <translation language="nl"><![CDATA[zoekmachines]]></translation>
         <translation language="en"><![CDATA[search engines]]></translation>
@@ -337,7 +337,7 @@
         <translation language="es"><![CDATA[motores de busqueda]]></translation>
         <translation language="uk"><![CDATA[Пошукові запити]]></translation>
         <translation language="sv"><![CDATA[sökmotorer]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[vyhledávače]]></translation></item>
       <item type="label" name="SiteAverage">
         <translation language="nl"><![CDATA[sitegemidddelde]]></translation>
         <translation language="en"><![CDATA[site average]]></translation>
@@ -350,7 +350,7 @@
         <translation language="es"><![CDATA[media del sitio]]></translation>
         <translation language="uk"><![CDATA[В середньому]]></translation>
         <translation language="sv"><![CDATA[sajt genomsnitts]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[průměr webu]]></translation></item>
       <item type="label" name="TimeOnSite">
         <translation language="nl"><![CDATA[bezoekduur]]></translation>
         <translation language="en"><![CDATA[time on site]]></translation>
@@ -363,7 +363,7 @@
         <translation language="es"><![CDATA[tiempo en el sitio]]></translation>
         <translation language="uk"><![CDATA[Часу на сайті]]></translation>
         <translation language="sv"><![CDATA[tid på sajt]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[doba na webu]]></translation></item>
       <item type="label" name="TopContent">
         <translation language="nl"><![CDATA[belangrijkste inhoud]]></translation>
         <translation language="en"><![CDATA[top content]]></translation>
@@ -376,7 +376,7 @@
         <translation language="es"><![CDATA[top contenido]]></translation>
         <translation language="uk"><![CDATA[Топ контенту]]></translation>
         <translation language="sv"><![CDATA[topp innehåll]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší obsah]]></translation></item>
       <item type="label" name="TopExitPages">
         <translation language="nl"><![CDATA[belangrijkste uitstappagina's]]></translation>
         <translation language="en"><![CDATA[top exit pages]]></translation>
@@ -389,7 +389,7 @@
         <translation language="es"><![CDATA[top páginas de salidas]]></translation>
         <translation language="uk"><![CDATA[Топ сторінок виходу]]></translation>
         <translation language="sv"><![CDATA[topp avslut sidor]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší výstupní stránky.]]></translation></item>
       <item type="label" name="TopKeywords">
         <translation language="nl"><![CDATA[belangrijkste zoekwoorden]]></translation>
         <translation language="en"><![CDATA[top keywords]]></translation>
@@ -402,7 +402,7 @@
         <translation language="es"><![CDATA[top palabras clave]]></translation>
         <translation language="uk"><![CDATA[Топ ключових слів]]></translation>
         <translation language="sv"><![CDATA[topp nyckelord]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší klíčová slova]]></translation></item>
       <item type="label" name="TopLandingPages">
         <translation language="nl"><![CDATA[belangrijkste landingspagina's]]></translation>
         <translation language="en"><![CDATA[top landing pages]]></translation>
@@ -415,7 +415,7 @@
         <translation language="es"><![CDATA[top páginas de destino]]></translation>
         <translation language="uk"><![CDATA[Топ цільових сторінок]]></translation>
         <translation language="sv"><![CDATA[topp landingsidor]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší vstupní stránky]]></translation></item>
       <item type="label" name="TopPages">
         <translation language="nl"><![CDATA[belangrijkste pagina's]]></translation>
         <translation language="en"><![CDATA[top pages]]></translation>
@@ -428,7 +428,7 @@
         <translation language="es"><![CDATA[top páginas]]></translation>
         <translation language="uk"><![CDATA[Топ сторінок]]></translation>
         <translation language="sv"><![CDATA[topp sidor]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší stránky]]></translation></item>
       <item type="label" name="TopReferrers">
         <translation language="nl"><![CDATA[belangrijkste verwijzende sites]]></translation>
         <translation language="en"><![CDATA[top referrers]]></translation>
@@ -441,7 +441,7 @@
         <translation language="es"><![CDATA[top referentes]]></translation>
         <translation language="uk"><![CDATA[Топ реферерів]]></translation>
         <translation language="sv"><![CDATA[topp refererande]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší odkazovači]]></translation></item>
       <item type="label" name="UniquePageviews">
         <translation language="nl"><![CDATA[unieke paginaweergaves]]></translation>
         <translation language="en"><![CDATA[unique pageviews]]></translation>
@@ -454,7 +454,7 @@
         <translation language="es"><![CDATA[bistas únicas]]></translation>
         <translation language="uk"><![CDATA[Унікальних переглядів]]></translation>
         <translation language="sv"><![CDATA[unika sidvisningar]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[unikátní zobrazení stránek]]></translation></item>
       <item type="label" name="Views">
         <translation language="nl"><![CDATA[weergaves]]></translation>
         <translation language="en"><![CDATA[views]]></translation>
@@ -467,7 +467,7 @@
         <translation language="es"><![CDATA[vistas]]></translation>
         <translation language="uk"><![CDATA[Переглядів]]></translation>
         <translation language="sv"><![CDATA[visningar]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[zobrazení]]></translation></item>
       <item type="label" name="ViewStatistics">
         <translation language="nl"><![CDATA[bekijk de statistieken]]></translation>
         <translation language="en"><![CDATA[view statistics]]></translation>
@@ -480,10 +480,10 @@
         <translation language="es"><![CDATA[ver estadísticas]]></translation>
         <translation language="uk"><![CDATA[Перегляд статистики]]></translation>
         <translation language="sv"><![CDATA[visa statistik]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[zobrazit statistiky]]></translation></item>
       <item type="label" name="Visit">
         <translation language="sv"><![CDATA[besök]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[]]></translation></item>
       <item type="label" name="Visits">
         <translation language="nl"><![CDATA[bezoeken]]></translation>
         <translation language="en"><![CDATA[visits]]></translation>
@@ -495,7 +495,7 @@
         <translation language="fr"><![CDATA[visites]]></translation>
         <translation language="es"><![CDATA[visitas]]></translation>
         <translation language="uk"><![CDATA[Відвідувань]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[návštěvy]]></translation></item>
       <item type="error" name="AnalyseNoSessionToken">
         <translation language="nl"><![CDATA[Er is nog geen Google analytics account gekoppeld. <a href="%1$s">Configureer</a>]]></translation>
         <translation language="en"><![CDATA[There is no link with a Google analytics account yet. <a href="%1$s">Configure</a>]]></translation>
@@ -508,7 +508,7 @@
         <translation language="es"><![CDATA[Aún no hay ninguna cuenta Google analytics vinculada. <a href="%1$s">Configurar</a>]]></translation>
         <translation language="lt"><![CDATA[Nieko nesusieta su Google Analytics paskyra, <a href="%1$s">susieti</a>]]></translation>
         <translation language="sv"><![CDATA[Det finns ingen länk med ett Google analytics konto än. <en href="%1$s">Konfigurera</en>]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud neexistuje žádné propojení s účtem Google Analytics <a href="%1$s">Konfigurovat</ a>]]></translation></item>
       <item type="error" name="AnalyseNoTableId">
         <translation language="nl"><![CDATA[Er is nog geen analytics website profiel gekoppeld. <a href="%1$s">Configureer</a>]]></translation>
         <translation language="en"><![CDATA[There is no link with an analytics website profile yet. <a href="%1$s">Configure</a>]]></translation>
@@ -520,7 +520,7 @@
         <translation language="de"><![CDATA[Es wurde noch keine Verbindung zu einem Analytics-Website-Profil hergestellt. <a href="%1$s">Konfigurieren</a>]]></translation>
         <translation language="es"><![CDATA[Aún no hay ningun perfil de sitio web analytics vinculado. <a href="%1$s">Configurar</a>]]></translation>
         <translation language="sv"><![CDATA[Det finns ingen länk med ett analytics webbplats profil än. <en href="%1$s">Konfigurera</en>]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud neexistuje žádné spojení s profilem na stránkách analytics <a href="%1$s">Konfigurovat</ a>]]></translation></item>
       <item type="error" name="NoSessionToken">
         <translation language="nl"><![CDATA[Er is nog geen Google account gekoppeld.]]></translation>
         <translation language="en"><![CDATA[There is no link with a Google analytics account yet.]]></translation>
@@ -533,7 +533,7 @@
         <translation language="es"><![CDATA[Aún no hay ninguna cuenta Google analytics vinculada.]]></translation>
         <translation language="lt"><![CDATA[Nieko nesusieta su Google Analytics paskyra.]]></translation>
         <translation language="sv"><![CDATA[Det finns ingen länk med ett Google analytics konto än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud neexistuje žádné propojení s účtem Google Analytics.]]></translation></item>
       <item type="error" name="NoTableId">
         <translation language="nl"><![CDATA[Er is nog geen website profiel gekoppeld.]]></translation>
         <translation language="en"><![CDATA[There is no link with an analytics website profile yet.]]></translation>
@@ -545,11 +545,11 @@
         <translation language="de"><![CDATA[Es gibt noch keine Verbindung zu einem Analytics-Website-Profil.]]></translation>
         <translation language="es"><![CDATA[Aún no hay ningun perfil de sitio web analytics vinculado.]]></translation>
         <translation language="sv"><![CDATA[Det finns ingen länk med ett analytics webbplats profil än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud neexistuje žádné spojení s profilem na stránkách Google Analytics.]]></translation></item>
       <item type="message" name="AnalyticsDelete">
         <translation language="nl"><![CDATA[De items zijn verwijderd]]></translation>
         <translation language="en"><![CDATA[Items are deleted]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Položky jsou odstraněny]]></translation></item>
       <item type="message" name="AuthenticateAtGoogle">
         <translation language="nl"><![CDATA[Koppel uw Google account]]></translation>
         <translation language="en"><![CDATA[Link your Google account]]></translation>
@@ -562,7 +562,7 @@
         <translation language="es"><![CDATA[Vincular tu cuenta Google]]></translation>
         <translation language="uk"><![CDATA[Підключення до профіля Google]]></translation>
         <translation language="sv"><![CDATA[Länk ditt Google konto]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Propojit se svým účtem Google]]></translation></item>
       <item type="message" name="ChooseWebsiteProfile">
         <translation language="nl"><![CDATA[Kies een Analytics website profiel...]]></translation>
         <translation language="en"><![CDATA[Choose an Analytics website profile...]]></translation>
@@ -575,7 +575,7 @@
         <translation language="es"><![CDATA[Elegir un perfil de sitio web Analytics...]]></translation>
         <translation language="uk"><![CDATA[Виберіть профіль G.Analitycs]]></translation>
         <translation language="sv"><![CDATA[Välj en Analytics webbplats profil...]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Zvolte profil ze stránek Google Analytics ...]]></translation></item>
       <item type="message" name="ConfirmDeleteLinkAccount">
         <translation language="nl"><![CDATA[Weet u zeker dat u de koppeling met de account "%1$s" wil verwijderen?<br />Alle opgeslagen statistieken worden dan verwijderd uit het CMS.]]></translation>
         <translation language="en"><![CDATA[Are you sure you want to remove the link with the account "%1$s"?<br />All saves statistics will be deleted from the CMS.]]></translation>
@@ -587,7 +587,7 @@
         <translation language="de"><![CDATA[Bist du sicher, dass du die Verbindung zum Konto "%1$s" wirklich entfernen möchtest? <br /> Alle gespeicherten Statistiken werden dadurch bei Fork gelöscht werden.]]></translation>
         <translation language="es"><![CDATA[¿Estás seguro de eliminar el vinculo con la cuenta "%1$s"?<br />All saves statistics will be deleted from the CMS.]]></translation>
         <translation language="sv"><![CDATA[Är du säker du vill till ta bort länken med the konto "%1$s"?<br />All sparad statistik kommer att tas bort från CMS.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Jste si jisti, že chcete odstranit vazbu na účet "% 1 $ s?" <br /> Všechny uložené statistiky budou odstraněny.]]></translation></item>
       <item type="message" name="ConfirmDeleteLinkGoogleAccount">
         <translation language="nl"><![CDATA[Weet u zeker dat u de koppeling met uw Google account wilt verwijderen?]]></translation>
         <translation language="en"><![CDATA[Are you sure you want to remove the link with your Google account?]]></translation>
@@ -599,7 +599,7 @@
         <translation language="de"><![CDATA[Willst du die Verbdindung zu deinem Google-Konto wirklich trennen?]]></translation>
         <translation language="es"><![CDATA[¿Estás seguro de eliminar el vinculo con tu cuenta Google?]]></translation>
         <translation language="sv"><![CDATA[Är du säker du vill till ta bort länken med ditt Google konto?]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Jste si jisti, že chcete odstranit spojení s vaším účtem Google?]]></translation></item>
       <item type="message" name="GetDataError">
         <translation language="nl"><![CDATA[Er liep iets mis bij het ophalen van de gegevens via Google Analytics. Onze excuses voor het ongemak. Probeer het later nog eens.]]></translation>
         <translation language="en"><![CDATA[Something went wrong while collecting the data from Google Analytics. Our appologies for the inconvenience. Please try again later.]]></translation>
@@ -611,7 +611,7 @@
         <translation language="fr"><![CDATA[Une erreur est survenue pendant la tentative de récupération de données de Google Analytics. Nous nous excusons pour le désagrément. Veuillez réessayer plus tard.]]></translation>
         <translation language="es"><![CDATA[Algo salió mal mientras se recogian los datos de Google Analytics. Disculpe las molestias. Por favor intentalo de nuevo.]]></translation>
         <translation language="sv"><![CDATA[Någonting gick fel vid hämtning av data från Google Analytics. Våra ursäkter för problemet. Vänligen försök igen senare.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Něco se pokazilo při shromažďování dat z Google Analytics. Omlouvámse se za vzniklé potíže. Zkuste to, prosím, později.]]></translation></item>
       <item type="message" name="LinkGoogleAccount">
         <translation language="nl"><![CDATA[Koppel uw Google account aan Fork CMS.]]></translation>
         <translation language="en"><![CDATA[Link your Google account to Fork CMS.]]></translation>
@@ -623,7 +623,7 @@
         <translation language="de"><![CDATA[Verbinde dein Google-Konto mit Fork CMS.]]></translation>
         <translation language="es"><![CDATA[Vincula tu cuenta Google a Fork CMS.]]></translation>
         <translation language="sv"><![CDATA[Länka ditt Google konto till Fork CMS.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Propojit svůj účet Google s Fork CMS.]]></translation></item>
       <item type="message" name="LinkWebsiteProfile">
         <translation language="nl"><![CDATA[Koppel een Google Analytics website profiel aan Fork CMS.]]></translation>
         <translation language="en"><![CDATA[Link your Google Analytics website profile to Fork CMS.]]></translation>
@@ -635,7 +635,7 @@
         <translation language="de"><![CDATA[Verbinde dein Google-Analytics Website-Profil mit Fork CMS.]]></translation>
         <translation language="es"><![CDATA[Vincula tu perfil de web Google Analytics a Fork CMS.]]></translation>
         <translation language="sv"><![CDATA[Länka ditt Google Analytics webbplats profil till Fork CMS.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Propojit profil ze stránek Google Analytics s Fork CMS.]]></translation></item>
       <item type="message" name="LoadingData">
         <translation language="nl"><![CDATA[Fork haalt momenteel de gegevens binnen via Google Analytics.]]></translation>
         <translation language="en"><![CDATA[Fork is collecting the data from Google Analytics.]]></translation>
@@ -647,7 +647,7 @@
         <translation language="fr"><![CDATA[Fork collecte des données de Google Analytics.]]></translation>
         <translation language="es"><![CDATA[Fork está recogiendo los datos de Google Analytics.]]></translation>
         <translation language="sv"><![CDATA[Fork hämtar data från Google Analytics.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Systém shomažďuje data z Google Analytics.]]></translation></item>
       <item type="message" name="NoAccounts">
         <translation language="nl"><![CDATA[Er hangen geen website profielen aan deze Google account. Meld je af bij Google en probeer het met een andere account.]]></translation>
         <translation language="en"><![CDATA[There are no website profiles linked to this Google account. Log off at Google and try with a different account.]]></translation>
@@ -659,7 +659,7 @@
         <translation language="de"><![CDATA[Mit diesem Google-Konto sind keine Website-Profile verbunden. Melde dich bei Google ab und versuche es mit einem anderen Konto.]]></translation>
         <translation language="es"><![CDATA[No hay ningún perfil de web vinculado a esta cuenta Google. Desconecta de Google e intenta con una cuenta diferente.]]></translation>
         <translation language="sv"><![CDATA[Det finns ingen webbplats profil länkat till detta Google konto. Logga ut från Google och försök med ett annat konto.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Nejsou žádné profily propojené s tímto účtem Google. Odhlaste se na Google a zkuste jiný účet.]]></translation></item>
       <item type="message" name="NoContent">
         <translation language="nl"><![CDATA[Er zijn nog geen statistieken van inhoud.]]></translation>
         <translation language="en"><![CDATA[There is no content yet.]]></translation>
@@ -671,7 +671,7 @@
         <translation language="fr"><![CDATA[Il n'y a pas encore de contenu.]]></translation>
         <translation language="es"><![CDATA[Aún no hay contenido.]]></translation>
         <translation language="sv"><![CDATA[Det finns inget innehåll än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud není žádný obsah.]]></translation></item>
       <item type="message" name="NoData">
         <translation language="nl"><![CDATA[Google heeft nog geen Analytics gegevens van uw website. Dit kan enkele dagen duren. Kijk zeker ook na of al uw instellingen bij Google goedstaan.]]></translation>
         <translation language="en"><![CDATA[Google has no Analytics data yet for your website. This could take a few days. Also check you Google Analytics account to make sure all settings are correct.]]></translation>
@@ -683,7 +683,7 @@
         <translation language="fr"><![CDATA[Google n'a pas encore de données Analytics pour votre site. Ceci peut prendre plusieurs jours. Vérifiez également que tous vos paramètres sont corrects dans votre compte Analytics.]]></translation>
         <translation language="es"><![CDATA[Google aún no tiene datos de Analytics para tu sitio web. Esto podría tomar unos dias. Tambien comprueba tu cuenta Google Analytics para asegurarte de que este configurada correctamente.]]></translation>
         <translation language="sv"><![CDATA[Google har ingen Analytics data än för din webbplats. Detta kan ta ett par dagar. Kontrollera även att ditt Google Analytics kontos alla inställningar är korrekta.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Google Analytics zatím nemá žádná data pro vaše webové stránky. To může trvat několik dní. Zkontrolujte také Váš účet Google Analytics, zda jsou všechna nastavení správná.]]></translation></item>
       <item type="message" name="NoExitPages">
         <translation language="nl"><![CDATA[Er zijn nog geen statistieken van uitstappagina's]]></translation>
         <translation language="en"><![CDATA[There are no exit pages yet.]]></translation>
@@ -695,7 +695,7 @@
         <translation language="de"><![CDATA[Es gibt noch keine Ausstiegsseiten.]]></translation>
         <translation language="es"><![CDATA[Aún no hay páginas de salida.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga avslutssidor än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné výstupní stránky.]]></translation></item>
       <item type="message" name="NoKeywords">
         <translation language="nl"><![CDATA[Er zijn nog geen statistieken van zoekwoorden.]]></translation>
         <translation language="en"><![CDATA[There are no keywords yet.]]></translation>
@@ -707,7 +707,7 @@
         <translation language="fr"><![CDATA[Il n'y a pas encore de mots-clefs.]]></translation>
         <translation language="es"><![CDATA[Aún no hay palabras clave.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga nyckelord än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádná klíčová slova.]]></translation></item>
       <item type="message" name="NoLandingPages">
         <translation language="nl"><![CDATA[Er zijn nog geen statistieken van landingpagina's.]]></translation>
         <translation language="en"><![CDATA[There are no landing pages yet.]]></translation>
@@ -719,7 +719,7 @@
         <translation language="de"><![CDATA[Es gibt noch keine Einstiegseiten.]]></translation>
         <translation language="es"><![CDATA[Aún no hay páginas de destino.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga landingssidor än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné vstupní stránky]]></translation></item>
       <item type="message" name="NoPages">
         <translation language="nl"><![CDATA[Er zijn nog geen statistieken van pagina's.]]></translation>
         <translation language="en"><![CDATA[There are no statistics for any pages.]]></translation>
@@ -731,7 +731,7 @@
         <translation language="de"><![CDATA[Es gibt keine Statistiken für eine Seite.]]></translation>
         <translation language="es"><![CDATA[No hay estadisticas para ninguna página.]]></translation>
         <translation language="sv"><![CDATA[Det finns ingen statistik för någon sida.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Nejsou žádné statistiky pro všechny stránky.]]></translation></item>
       <item type="message" name="PagesHaveBeenViewedTimes">
         <translation language="nl"><![CDATA[Pagina's op deze site zijn in totaal %1$s keer bekeken.]]></translation>
         <translation language="en"><![CDATA[Pages on this site have been viewed %1$s times.]]></translation>
@@ -743,7 +743,7 @@
         <translation language="fr"><![CDATA[Les pages de ce site ont été vues %1$s fois.]]></translation>
         <translation language="es"><![CDATA[Las páginas de este sitio han sido vistas %1$s veces.]]></translation>
         <translation language="sv"><![CDATA[Sidor på denna sajt har visats %1$s gånger.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Stránky této adrese byly zobrazeny %1$s krát.]]></translation></item>
       <item type="message" name="RefreshedTrafficSources">
         <translation language="nl"><![CDATA[De verkeersbronnen werden vernieuwd.]]></translation>
         <translation language="en"><![CDATA[The traffic sources have been refreshed.]]></translation>
@@ -755,7 +755,7 @@
         <translation language="de"><![CDATA[Die Traffic-Quellen wurden neu geladen.]]></translation>
         <translation language="es"><![CDATA[Las fuentes de tráfico han sido refrescadas.]]></translation>
         <translation language="sv"><![CDATA[Trafikkällor har blivit uppdaterade.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Zdroje provozu byly aktualizovány.]]></translation></item>
       <item type="message" name="RemoveAccountLink">
         <translation language="nl"><![CDATA[Verwijder de koppeling met uw Google account]]></translation>
         <translation language="en"><![CDATA[Remove the link with your Google account]]></translation>
@@ -767,7 +767,7 @@
         <translation language="de"><![CDATA[Entferne die Verbindung zu deinem Google-Konto.]]></translation>
         <translation language="es"><![CDATA[Eliminar el vinculo con tu cuenta Google]]></translation>
         <translation language="sv"><![CDATA[Ta bort länken med ditt Google konto]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Odstranit propojení s vaším účtem Google]]></translation></item>
       <item type="message" name="RemoveProfileLink">
         <translation language="nl"><![CDATA[Verwijder de koppeling met uw Analytics website profiel]]></translation>
         <translation language="en"><![CDATA[Remove the link with your Analytics website profile]]></translation>
@@ -779,7 +779,7 @@
         <translation language="de"><![CDATA[Entferne die Verbindung mit deinem Analytics-Website-Profil.]]></translation>
         <translation language="es"><![CDATA[Eliminar el vinculo con tu perfil web de Analytics]]></translation>
         <translation language="sv"><![CDATA[Ta bort länken från ditt Analytics webbplats profil]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Odstranit propojení s vaším profilem ze stránek Google Analytics]]></translation></item>
     </analytics>
   </backend>
 </locale>

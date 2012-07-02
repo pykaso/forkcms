@@ -15,7 +15,7 @@
         <translation language="uk"><![CDATA[Додати форму]]></translation>
         <translation language="lt"><![CDATA[nauja forma]]></translation>
         <translation language="sv"><![CDATA[lägg till formulär]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[přidat formulář]]></translation></item>
       <item type="label" name="AddFields">
         <translation language="nl"><![CDATA[velden toevoegen]]></translation>
         <translation language="en"><![CDATA[add fields]]></translation>
@@ -29,7 +29,7 @@
         <translation language="uk"><![CDATA[Додати поля]]></translation>
         <translation language="lt"><![CDATA[nauji laukeliai]]></translation>
         <translation language="sv"><![CDATA[lägg till fält]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[přidat pole]]></translation></item>
       <item type="label" name="BackToData">
         <translation language="nl"><![CDATA[terug naar inzendingen]]></translation>
         <translation language="en"><![CDATA[back to submissions]]></translation>
@@ -43,7 +43,7 @@
         <translation language="uk"><![CDATA[Повернутися до даних]]></translation>
         <translation language="lt"><![CDATA[grįžti į pateikimą]]></translation>
         <translation language="sv"><![CDATA[tillbaka till inskick]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[zpět na podání]]></translation></item>
       <item type="label" name="Basic">
         <translation language="nl"><![CDATA[basis]]></translation>
         <translation language="en"><![CDATA[basic]]></translation>
@@ -57,7 +57,7 @@
         <translation language="uk"><![CDATA[Основний]]></translation>
         <translation language="lt"><![CDATA[paprastas]]></translation>
         <translation language="sv"><![CDATA[bas]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[základní]]></translation></item>
       <item type="label" name="Checkbox">
         <translation language="nl"><![CDATA[selectievakje]]></translation>
         <translation language="en"><![CDATA[checkbox]]></translation>
@@ -71,7 +71,7 @@
         <translation language="uk"><![CDATA[Чекбокс]]></translation>
         <translation language="sv"><![CDATA[checkbox]]></translation>
         <translation language="lt"><![CDATA[varnelė]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Checkbox]]></translation></item>
       <item type="label" name="DefaultValue">
         <translation language="nl"><![CDATA[standaardwaarde]]></translation>
         <translation language="en"><![CDATA[default value]]></translation>
@@ -85,7 +85,7 @@
         <translation language="uk"><![CDATA[Стандартне значення]]></translation>
         <translation language="sv"><![CDATA[standardvärde]]></translation>
         <translation language="lt"><![CDATA[pagrindinė reikšmė]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[výchozí hodnota]]></translation></item>
       <item type="label" name="Details">
         <translation language="nl"><![CDATA[details]]></translation>
         <translation language="en"><![CDATA[details]]></translation>
@@ -95,7 +95,7 @@
         <translation language="hu"><![CDATA[részletek]]></translation>
         <translation language="sv"><![CDATA[detaljer]]></translation>
         <translation language="lt"><![CDATA[informacija]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[podrobnosti]]></translation></item>
       <item type="label" name="Drag">
         <translation language="nl"><![CDATA[versleep]]></translation>
         <translation language="en"><![CDATA[move]]></translation>
@@ -109,7 +109,7 @@
         <translation language="uk"><![CDATA[Перемістити]]></translation>
         <translation language="sv"><![CDATA[flytta]]></translation>
         <translation language="lt"><![CDATA[perkelti]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[pohyb]]></translation></item>
       <item type="label" name="Dropdown">
         <translation language="nl"><![CDATA[keuzemenu]]></translation>
         <translation language="en"><![CDATA[dropdown]]></translation>
@@ -123,7 +123,7 @@
         <translation language="uk"><![CDATA[Випадаючий список]]></translation>
         <translation language="sv"><![CDATA[dropdown]]></translation>
         <translation language="lt"><![CDATA[išsiskleidžiantis]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[seznam]]></translation></item>
       <item type="label" name="EditForm">
         <translation language="nl"><![CDATA[bewerk formulier "%1$s"]]></translation>
         <translation language="en"><![CDATA[edit form "%1$s"]]></translation>
@@ -136,7 +136,7 @@
         <translation language="es"><![CDATA[editar formulario "%1$s"]]></translation>
         <translation language="uk"><![CDATA[Редагувати "%1$s"]]></translation>
         <translation language="sv"><![CDATA[ändra formulär "%1$s"]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[upravit formulář "% 1 $ s"]]></translation></item>
       <item type="label" name="ErrorMessage">
         <translation language="nl"><![CDATA[foutmelding]]></translation>
         <translation language="en"><![CDATA[error mesage]]></translation>
@@ -149,7 +149,7 @@
         <translation language="es"><![CDATA[mensaje de error]]></translation>
         <translation language="uk"><![CDATA[Повідомлення про помилку]]></translation>
         <translation language="sv"><![CDATA[felmeddelande]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[chybová zpráva]]></translation></item>
       <item type="label" name="Extra">
         <translation language="nl"><![CDATA[extra]]></translation>
         <translation language="en"><![CDATA[extra]]></translation>
@@ -163,7 +163,7 @@
         <translation language="uk"><![CDATA[Додатково]]></translation>
         <translation language="sv"><![CDATA[extra]]></translation>
         <translation language="lt"><![CDATA[papildomai]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[extra]]></translation></item>
       <item type="label" name="Fields">
         <translation language="nl"><![CDATA[velden]]></translation>
         <translation language="en"><![CDATA[fields]]></translation>
@@ -177,7 +177,7 @@
         <translation language="uk"><![CDATA[Поля]]></translation>
         <translation language="sv"><![CDATA[fält]]></translation>
         <translation language="lt"><![CDATA[laukeliai]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[pole]]></translation></item>
       <item type="label" name="FormData">
         <translation language="nl"><![CDATA[inzendingen van "%1$s"]]></translation>
         <translation language="en"><![CDATA[submissions for "%1$s"]]></translation>
@@ -191,7 +191,7 @@
         <translation language="uk"><![CDATA[Аргументи для "%1$s"]]></translation>
         <translation language="sv"><![CDATA[inskickat för "%1$s"]]></translation>
         <translation language="lt"><![CDATA[pateikta "%1$s"]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[vyjádření pro "% 1 $ s"]]></translation></item>
       <item type="label" name="FormElements">
         <translation language="nl"><![CDATA[formulier elementen]]></translation>
         <translation language="en"><![CDATA[form elements]]></translation>
@@ -205,7 +205,7 @@
         <translation language="uk"><![CDATA[Елементи форми]]></translation>
         <translation language="sv"><![CDATA[formulär element]]></translation>
         <translation language="lt"><![CDATA[fomros elementai]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[formulářové prvky]]></translation></item>
       <item type="label" name="Heading">
         <translation language="nl"><![CDATA[hoofding]]></translation>
         <translation language="en"><![CDATA[heading]]></translation>
@@ -219,7 +219,7 @@
         <translation language="uk"><![CDATA[Заголовок]]></translation>
         <translation language="sv"><![CDATA[titel]]></translation>
         <translation language="lt"><![CDATA[antraštė]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[záhlaví]]></translation></item>
       <item type="label" name="Identifier">
         <translation language="nl"><![CDATA[identifier]]></translation>
         <translation language="en"><![CDATA[identifier]]></translation>
@@ -233,7 +233,7 @@
         <translation language="uk"><![CDATA[Ідентицікація]]></translation>
         <translation language="sv"><![CDATA[identifierare]]></translation>
         <translation language="lt"><![CDATA[identifikatorius]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[identifikátor]]></translation></item>
       <item type="label" name="Method">
         <translation language="nl"><![CDATA[methode]]></translation>
         <translation language="en"><![CDATA[method]]></translation>
@@ -246,7 +246,7 @@
         <translation language="es"><![CDATA[método]]></translation>
         <translation language="uk"><![CDATA[Метод]]></translation>
         <translation language="sv"><![CDATA[metod]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[metoda]]></translation></item>
       <item type="label" name="MethodDatabase">
         <translation language="nl"><![CDATA[opslaan in de database]]></translation>
         <translation language="en"><![CDATA[save in the database]]></translation>
@@ -259,7 +259,7 @@
         <translation language="es"><![CDATA[guardar en base de datos]]></translation>
         <translation language="uk"><![CDATA[Зберегти в БД]]></translation>
         <translation language="sv"><![CDATA[spara i databas]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[uložit do databáze]]></translation></item>
       <item type="label" name="MethodDatabaseEmail">
         <translation language="nl"><![CDATA[opslaan in de database en email verzenden]]></translation>
         <translation language="en"><![CDATA[save in the database and send email]]></translation>
@@ -272,7 +272,7 @@
         <translation language="es"><![CDATA[guardar en base de datos y enviar un email]]></translation>
         <translation language="uk"><![CDATA[Зберегти в БД і нідіслати на e-mail]]></translation>
         <translation language="sv"><![CDATA[spara i databas och skicka e-post]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[uložit do databáze a poslat email]]></translation></item>
       <item type="label" name="MinutesAgo">
         <translation language="nl"><![CDATA[%1$s minuten geleden]]></translation>
         <translation language="en"><![CDATA[%1$s minutes ago]]></translation>
@@ -285,7 +285,7 @@
         <translation language="es"><![CDATA[hace %1$s minutos]]></translation>
         <translation language="uk"><![CDATA[%1$s хвилин тому]]></translation>
         <translation language="sv"><![CDATA[%1$s minuter sen]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[před %1 $s minutami]]></translation></item>
       <item type="label" name="Numeric">
         <translation language="nl"><![CDATA[numeriek]]></translation>
         <translation language="en"><![CDATA[numeric]]></translation>
@@ -298,7 +298,7 @@
         <translation language="es"><![CDATA[numérico]]></translation>
         <translation language="uk"><![CDATA[Числове значення]]></translation>
         <translation language="sv"><![CDATA[numeric]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[číselné]]></translation></item>
       <item type="label" name="OneMinuteAgo">
         <translation language="nl"><![CDATA[1 minuut geleden]]></translation>
         <translation language="en"><![CDATA[1 minute ago]]></translation>
@@ -311,7 +311,7 @@
         <translation language="es"><![CDATA[hace 1 minuto]]></translation>
         <translation language="uk"><![CDATA[1 хвилину тому]]></translation>
         <translation language="sv"><![CDATA[1 minut sen]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Před 1 minutou]]></translation></item>
       <item type="label" name="OneSecondAgo">
         <translation language="nl"><![CDATA[1 seconde geleden]]></translation>
         <translation language="en"><![CDATA[1 second ago]]></translation>
@@ -324,7 +324,7 @@
         <translation language="es"><![CDATA[hace 1 segundo]]></translation>
         <translation language="uk"><![CDATA[1 секунду тому]]></translation>
         <translation language="sv"><![CDATA[1 sekund sen]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Před 1 sekundou]]></translation></item>
       <item type="label" name="Paragraph">
         <translation language="nl"><![CDATA[paragraaf]]></translation>
         <translation language="en"><![CDATA[paragraph]]></translation>
@@ -337,7 +337,7 @@
         <translation language="es"><![CDATA[parrafo]]></translation>
         <translation language="uk"><![CDATA[Пуцнкт]]></translation>
         <translation language="sv"><![CDATA[paragraf]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[odstavec]]></translation></item>
       <item type="label" name="Parameter">
         <translation language="nl"><![CDATA[argument]]></translation>
         <translation language="en"><![CDATA[parameter]]></translation>
@@ -350,7 +350,7 @@
         <translation language="es"><![CDATA[parámetro]]></translation>
         <translation language="uk"><![CDATA[Параметр]]></translation>
         <translation language="sv"><![CDATA[parameter]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[parametr]]></translation></item>
       <item type="label" name="Preview">
         <translation language="nl"><![CDATA[preview]]></translation>
         <translation language="en"><![CDATA[preview]]></translation>
@@ -363,7 +363,7 @@
         <translation language="es"><![CDATA[vista previa]]></translation>
         <translation language="uk"><![CDATA[Предперегляд]]></translation>
         <translation language="sv"><![CDATA[förhandsvisning]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[náhled]]></translation></item>
       <item type="label" name="Properties">
         <translation language="nl"><![CDATA[eigenschappen]]></translation>
         <translation language="en"><![CDATA[properties]]></translation>
@@ -376,7 +376,7 @@
         <translation language="es"><![CDATA[propiedades]]></translation>
         <translation language="uk"><![CDATA[Опції]]></translation>
         <translation language="sv"><![CDATA[egenskaper]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[vlastnosti]]></translation></item>
       <item type="label" name="Radiobutton">
         <translation language="nl"><![CDATA[keuzerondje]]></translation>
         <translation language="en"><![CDATA[radiobutton]]></translation>
@@ -389,7 +389,7 @@
         <translation language="es"><![CDATA[radiobutton]]></translation>
         <translation language="uk"><![CDATA[Радіо кнопкаї]]></translation>
         <translation language="sv"><![CDATA[radiokanpp]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[RadioButton]]></translation></item>
       <item type="label" name="Recipient">
         <translation language="nl"><![CDATA[bestemmeling]]></translation>
         <translation language="en"><![CDATA[recipient]]></translation>
@@ -402,7 +402,7 @@
         <translation language="es"><![CDATA[recipiente]]></translation>
         <translation language="uk"><![CDATA[Отримувач]]></translation>
         <translation language="sv"><![CDATA[mottagare]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[příjemce]]></translation></item>
       <item type="label" name="Required">
         <translation language="nl"><![CDATA[vereist]]></translation>
         <translation language="en"><![CDATA[required]]></translation>
@@ -415,7 +415,7 @@
         <translation language="es"><![CDATA[requerido]]></translation>
         <translation language="uk"><![CDATA[Обов'язкове]]></translation>
         <translation language="sv"><![CDATA[obligatoriskt]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[povinné]]></translation></item>
       <item type="label" name="SecondsAgo">
         <translation language="nl"><![CDATA[%1$s seconden geleden]]></translation>
         <translation language="en"><![CDATA[%1$s seconds ago]]></translation>
@@ -428,7 +428,7 @@
         <translation language="es"><![CDATA[hace %1$s segundos]]></translation>
         <translation language="uk"><![CDATA[%1$s секунд тому]]></translation>
         <translation language="sv"><![CDATA[%1$s sekunder sen]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[před % 1 $ s sekundami]]></translation></item>
       <item type="label" name="SenderInformation">
         <translation language="nl"><![CDATA[afzender informatie]]></translation>
         <translation language="en"><![CDATA[sender information]]></translation>
@@ -441,7 +441,7 @@
         <translation language="es"><![CDATA[información del remitente]]></translation>
         <translation language="uk"><![CDATA[Інформація про відправника]]></translation>
         <translation language="sv"><![CDATA[avsändar information]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[údaje o odesílateli]]></translation></item>
       <item type="label" name="SentOn">
         <translation language="nl"><![CDATA[verstuurd op]]></translation>
         <translation language="en"><![CDATA[sent on]]></translation>
@@ -454,7 +454,7 @@
         <translation language="es"><![CDATA[enviado en]]></translation>
         <translation language="uk"><![CDATA[Надіслано до:]]></translation>
         <translation language="sv"><![CDATA[skickade den]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[odeslána]]></translation></item>
       <item type="label" name="SessionId">
         <translation language="nl"><![CDATA[sessie id]]></translation>
         <translation language="en"><![CDATA[session id]]></translation>
@@ -467,7 +467,7 @@
         <translation language="es"><![CDATA[id de sesión]]></translation>
         <translation language="uk"><![CDATA[ID сесії]]></translation>
         <translation language="sv"><![CDATA[session id]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[ID relace]]></translation></item>
       <item type="label" name="SubmitButton">
         <translation language="nl"><![CDATA[verzendknop]]></translation>
         <translation language="en"><![CDATA[send button]]></translation>
@@ -480,7 +480,7 @@
         <translation language="es"><![CDATA[boton de envio]]></translation>
         <translation language="uk"><![CDATA[Кнопка надсилання]]></translation>
         <translation language="sv"><![CDATA[skicka knapp]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[tlačítko Odeslat]]></translation></item>
       <item type="label" name="SuccessMessage">
         <translation language="nl"><![CDATA[succes boodschap]]></translation>
         <translation language="en"><![CDATA[success message]]></translation>
@@ -493,7 +493,7 @@
         <translation language="es"><![CDATA[mensaje de éxito]]></translation>
         <translation language="uk"><![CDATA[Повідомлення про вдалу дію]]></translation>
         <translation language="sv"><![CDATA[lyckat meddelande]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[zprávu o úspěchu]]></translation></item>
       <item type="label" name="Textarea">
         <translation language="nl"><![CDATA[tekstgebied]]></translation>
         <translation language="en"><![CDATA[textarea]]></translation>
@@ -506,7 +506,7 @@
         <translation language="es"><![CDATA[area de texto]]></translation>
         <translation language="uk"><![CDATA[Текстова зона]]></translation>
         <translation language="sv"><![CDATA[textarea]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[textarea]]></translation></item>
       <item type="label" name="Textbox">
         <translation language="nl"><![CDATA[tekstveld]]></translation>
         <translation language="en"><![CDATA[textbox]]></translation>
@@ -519,7 +519,7 @@
         <translation language="es"><![CDATA[caja de texto]]></translation>
         <translation language="uk"><![CDATA[Текстове поле]]></translation>
         <translation language="sv"><![CDATA[textbox]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Textové pole]]></translation></item>
       <item type="label" name="TextElements">
         <translation language="nl"><![CDATA[tekst elementen]]></translation>
         <translation language="en"><![CDATA[text elements]]></translation>
@@ -532,7 +532,7 @@
         <translation language="es"><![CDATA[elementos de texto]]></translation>
         <translation language="uk"><![CDATA[Текстові елементи]]></translation>
         <translation language="sv"><![CDATA[text element]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[textové prvky]]></translation></item>
       <item type="label" name="Today">
         <translation language="nl"><![CDATA[vandaag]]></translation>
         <translation language="en"><![CDATA[today]]></translation>
@@ -545,7 +545,7 @@
         <translation language="es"><![CDATA[hoy]]></translation>
         <translation language="uk"><![CDATA[Сьогодні]]></translation>
         <translation language="sv"><![CDATA[idag]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[dnes]]></translation></item>
       <item type="label" name="Validation">
         <translation language="nl"><![CDATA[validatie]]></translation>
         <translation language="en"><![CDATA[validation]]></translation>
@@ -558,7 +558,7 @@
         <translation language="es"><![CDATA[validación]]></translation>
         <translation language="uk"><![CDATA[Обробка]]></translation>
         <translation language="sv"><![CDATA[validering]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[validace]]></translation></item>
       <item type="label" name="Values">
         <translation language="nl"><![CDATA[waarden]]></translation>
         <translation language="en"><![CDATA[values]]></translation>
@@ -571,7 +571,7 @@
         <translation language="es"><![CDATA[valores]]></translation>
         <translation language="uk"><![CDATA[Значення]]></translation>
         <translation language="sv"><![CDATA[värden]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[hodnoty]]></translation></item>
       <item type="label" name="Yesterday">
         <translation language="nl"><![CDATA[gisteren]]></translation>
         <translation language="en"><![CDATA[yesterday]]></translation>
@@ -584,7 +584,7 @@
         <translation language="es"><![CDATA[ayer]]></translation>
         <translation language="uk"><![CDATA[Вчора]]></translation>
         <translation language="sv"><![CDATA[igår]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[včera]]></translation></item>
       <item type="message" name="Added">
         <translation language="nl"><![CDATA[Het formulier "%1$s" werd toegevoegd.]]></translation>
         <translation language="en"><![CDATA[The form "%1$s" was added.]]></translation>
@@ -597,10 +597,10 @@
         <translation language="es"><![CDATA[El formulario "%1$s" fue agregado.]]></translation>
         <translation language="uk"><![CDATA[Форму "%1$s" додана.]]></translation>
         <translation language="sv"><![CDATA[formulär "%1$s" har lagts till.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Formulář "% 1 $ s" byl přidán.]]></translation></item>
       <item type="message" name="Borttagen">
         <translation language="sv"><![CDATA[formulär "%1$s" var borttagen.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[]]></translation></item>
       <item type="message" name="ConfirmDelete">
         <translation language="nl"><![CDATA[Ben je zeker dat je het formulier "%1$s" en al zijn inzendingen wil verwijderen?]]></translation>
         <translation language="en"><![CDATA[Are you sure you want to delete the form "%1$s" and all its submissons?]]></translation>
@@ -612,7 +612,7 @@
         <translation language="de"><![CDATA[Willst du das Formular "%1$s" und alle zugehörigen Einsendungen wirklich löschen?]]></translation>
         <translation language="es"><![CDATA[¿Estáss seguro de eliminar el formulario "%1$s" y todos sus envios?]]></translation>
         <translation language="sv"><![CDATA[Är du säker du vill till ta bort formulär "%1$s" och all inskickad data?]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Jste si jisti, že chcete odstranit formulář "%1$s" a všechny jeho přijaté zprávy?]]></translation></item>
       <item type="message" name="ConfirmDeleteData">
         <translation language="nl"><![CDATA[Ben je zeker dat je deze inzending wil verwijderen?]]></translation>
         <translation language="en"><![CDATA[Are you sure you want to delete this submission?]]></translation>
@@ -624,7 +624,7 @@
         <translation language="de"><![CDATA[Willst du diese Einsendung wirklich löschen?]]></translation>
         <translation language="es"><![CDATA[¿Estás seguro de que quieres eliminar este envio?]]></translation>
         <translation language="sv"><![CDATA[Är du säker du vill till ta bort detta inskick?]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Jste si jisti, že chcete odstranit tuto přijatou zprávu?]]></translation></item>
       <item type="message" name="Deleted">
         <translation language="nl"><![CDATA[Het formulier "%1$s" werd verwijderd.]]></translation>
         <translation language="en"><![CDATA[The form "%1$s" was removed.]]></translation>
@@ -635,7 +635,7 @@
         <translation language="de"><![CDATA[Das Formular "%1$s" wurde entfernt.]]></translation>
         <translation language="fr"><![CDATA[Le formulaire "%1$s" a été effacé.]]></translation>
         <translation language="es"><![CDATA[El formulario "%1$s" fue eliminado.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Formulář "% 1 $s" byl odstraněn.]]></translation></item>
       <item type="message" name="Edited">
         <translation language="nl"><![CDATA[Het formulier "%1$s" werd opgeslagen.]]></translation>
         <translation language="en"><![CDATA[The form "%1$s" was saved.]]></translation>
@@ -647,7 +647,7 @@
         <translation language="de"><![CDATA[Das Formular "%1$s" wurde gespeichert.]]></translation>
         <translation language="es"><![CDATA[El formulario "%1$s" fue guardado.]]></translation>
         <translation language="sv"><![CDATA[formulär "%1$s" sparades.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Formulář "% 1 $ s" byl uložen.]]></translation></item>
       <item type="message" name="HelpIdentifier">
         <translation language="nl"><![CDATA[De identifier wordt in de URL geplaatst na het succesvol opslaan van formulier.]]></translation>
         <translation language="en"><![CDATA[The identifier is placed in the URL after successfully submitting a form.]]></translation>
@@ -659,7 +659,7 @@
         <translation language="fr"><![CDATA[Cet identifiant est placé dans l'URL quand un formulaire est envoyé avec succès.]]></translation>
         <translation language="es"><![CDATA[El identificador es colocado en la URL despues de haber enviado un formulario con éxito.]]></translation>
         <translation language="sv"><![CDATA[identifierare är placerade i URL efter lyckad skickande av formulär.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Identifikátor je umístěn v URL po úspěšném odeslání formuláře.]]></translation></item>
       <item type="message" name="ImportantImmediateUpdate">
         <translation language="nl"><![CDATA[<strong>Belangrijk</strong>: aanpassingen die je hier maakt worden onmiddelijk opgeslaan.]]></translation>
         <translation language="en"><![CDATA[<strong>Important</strong>: modifications made here are immediately saved.]]></translation>
@@ -671,7 +671,7 @@
         <translation language="fr"><![CDATA[<strong>Important</strong>: Les modifications faites ici sont immédiatement enregistrées.]]></translation>
         <translation language="es"><![CDATA[<strong>Importante</strong>: las modificaciones hechas aquí son inmediatamente guardadas.]]></translation>
         <translation language="sv"><![CDATA[<strong>Viktigt</strong>: modifieringar gjorda här sparas direkt.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[<strong>Důležité</ strong>: Změny provedené zde jsou ihned uloženy.]]></translation></item>
       <item type="message" name="ItemDeleted">
         <translation language="nl"><![CDATA[Inzending verwijderd.]]></translation>
         <translation language="en"><![CDATA[Submission removed.]]></translation>
@@ -683,7 +683,7 @@
         <translation language="de"><![CDATA[Einsendung entfernt.]]></translation>
         <translation language="es"><![CDATA[envio eliminado.]]></translation>
         <translation language="sv"><![CDATA[Inskick borttagen.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Přijatá zpráva odstraněna.]]></translation></item>
       <item type="message" name="ItemsDeleted">
         <translation language="nl"><![CDATA[Inzendingen verwijderd.]]></translation>
         <translation language="en"><![CDATA[Submissions removed.]]></translation>
@@ -695,7 +695,7 @@
         <translation language="de"><![CDATA[Einsendungen entfernt.]]></translation>
         <translation language="es"><![CDATA[envio eliminado.]]></translation>
         <translation language="sv"><![CDATA[Inskick borttagna.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Přijaté zprávy odstraněny.]]></translation></item>
       <item type="message" name="NoData">
         <translation language="nl"><![CDATA[Er zijn nog geen inzendingen.]]></translation>
         <translation language="en"><![CDATA[There are no submissions yet.]]></translation>
@@ -707,7 +707,7 @@
         <translation language="de"><![CDATA[Noch keine Einsendungen vorhanden.]]></translation>
         <translation language="es"><![CDATA[No hay envios aun.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga inskick än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné přijaté zprávy.]]></translation></item>
       <item type="message" name="NoFields">
         <translation language="nl"><![CDATA[Er zijn nog geen velden.]]></translation>
         <translation language="en"><![CDATA[There are no fields yet.]]></translation>
@@ -719,7 +719,7 @@
         <translation language="de"><![CDATA[Es gibt noch keine Felder.]]></translation>
         <translation language="es"><![CDATA[No hay campos aun.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga fält än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné pole.]]></translation></item>
       <item type="message" name="NoItems">
         <translation language="nl"><![CDATA[Er zijn nog geen formulieren.]]></translation>
         <translation language="en"><![CDATA[There are no forms yet.]]></translation>
@@ -731,7 +731,7 @@
         <translation language="fr"><![CDATA[Il n'y a pas encore de formulaires.]]></translation>
         <translation language="es"><![CDATA[No hay formularios aun.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga formulär än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné formuláře.]]></translation></item>
       <item type="message" name="NoValues">
         <translation language="nl"><![CDATA[Er zijn nog geen waarden.]]></translation>
         <translation language="en"><![CDATA[There are no values yet.]]></translation>
@@ -743,7 +743,7 @@
         <translation language="fr"><![CDATA[il n'y a pas encore de valeurs.]]></translation>
         <translation language="es"><![CDATA[No hay volares aun.]]></translation>
         <translation language="sv"><![CDATA[Det finns inga värden än.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Dosud nejsou žádné hodnoty.]]></translation></item>
       <item type="message" name="OneSentForm">
         <translation language="nl"><![CDATA[1 inzending]]></translation>
         <translation language="en"><![CDATA[1 submission]]></translation>
@@ -755,7 +755,7 @@
         <translation language="de"><![CDATA[1 Einsendung]]></translation>
         <translation language="es"><![CDATA[1 envio]]></translation>
         <translation language="sv"><![CDATA[1 inskick]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[1 přijatá zpráva]]></translation></item>
       <item type="message" name="SentForms">
         <translation language="nl"><![CDATA[%1$s inzendingen]]></translation>
         <translation language="en"><![CDATA[%1$s submissions]]></translation>
@@ -767,7 +767,7 @@
         <translation language="de"><![CDATA[%1$s Einsendungen]]></translation>
         <translation language="es"><![CDATA[%1$s enviados]]></translation>
         <translation language="sv"><![CDATA[%1$s inskick]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[%1$s přijatých zpráv]]></translation></item>
       <item type="error" name="ErrorMessageIsRequired">
         <translation language="nl"><![CDATA[Gelieve een foutmelding in te geven.]]></translation>
         <translation language="en"><![CDATA[Please provide an error message.]]></translation>
@@ -779,7 +779,7 @@
         <translation language="de"><![CDATA[Bitte gib eine Fehlermeldung an.]]></translation>
         <translation language="es"><![CDATA[Por favor introudce un mensaje de error.]]></translation>
         <translation language="sv"><![CDATA[Vänligen ange ett felmeddelande.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Uveďte prosím chybové hlášení.]]></translation></item>
       <item type="error" name="IdentifierExists">
         <translation language="nl"><![CDATA[This identifier already exists.]]></translation>
         <translation language="it"><![CDATA[Questo identificatore è già esistente.]]></translation>
@@ -791,7 +791,7 @@
         <translation language="en"><![CDATA[This identifier already exists.]]></translation>
         <translation language="es"><![CDATA[Este identificador ya existe.]]></translation>
         <translation language="sv"><![CDATA[Denna identifierare finns redan.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Tento identifikátor již existuje.]]></translation></item>
       <item type="error" name="InvalidIdentifier">
         <translation language="nl"><![CDATA[Gelieve een geldige identifier op te geven (enkel . - _ en alphanumerieke karakters)]]></translation>
         <translation language="en"><![CDATA[Please provide a valid identifier. (only . - _ and alphanumeric characters)]]></translation>
@@ -803,7 +803,7 @@
         <translation language="de"><![CDATA[Bitte gib einen gültigen Bezeichner an. (nur . - _ und alphanumerische Zeichen)]]></translation>
         <translation language="es"><![CDATA[Por favor introduce un identificador válido. (solo . - _ y carácteres alfanuméricos)]]></translation>
         <translation language="sv"><![CDATA[Vänligen ange en giltig identifierare. (endast . - _ och alfanumerisk tecken)]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Uveďte, prosím, platný identifikátor. (pouze -._ a alfanumerické znaky)]]></translation></item>
       <item type="error" name="LabelIsRequired">
         <translation language="nl"><![CDATA[Gelieve een label in te geven.]]></translation>
         <translation language="en"><![CDATA[Please provide a label.]]></translation>
@@ -815,7 +815,7 @@
         <translation language="de"><![CDATA[Bitte gib ein Label an.]]></translation>
         <translation language="es"><![CDATA[Por favor introduce una etiqueta.]]></translation>
         <translation language="sv"><![CDATA[Vänligen ange en label.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Uveďte, prosím, štítek.]]></translation></item>
       <item type="error" name="SuccessMessageIsRequired">
         <translation language="nl"><![CDATA[Gelieve een succes boodschap in te geven.]]></translation>
         <translation language="en"><![CDATA[Please provide a success message.]]></translation>
@@ -827,7 +827,7 @@
         <translation language="de"><![CDATA[Bitte gib eine Erfolgsmeldung an.]]></translation>
         <translation language="es"><![CDATA[Por favor introduce un mensaje de éxito.]]></translation>
         <translation language="sv"><![CDATA[Vänligen ange ett lyckat meddelande.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Uveďte, prosím, zprávu o úspěšném odeslání.]]></translation></item>
       <item type="error" name="UniqueIdentifier">
         <translation language="nl"><![CDATA[Deze identifier is al in gebruik.]]></translation>
         <translation language="en"><![CDATA[This identifier is already in use.]]></translation>
@@ -839,7 +839,7 @@
         <translation language="de"><![CDATA[Der Bezeichner ist bereits in Gebrauch.]]></translation>
         <translation language="es"><![CDATA[Este identificador ya está en uso.]]></translation>
         <translation language="sv"><![CDATA[Denna identifierare är redan använd.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Tento identifikátor již existuje.]]></translation></item>
       <item type="error" name="ValueIsRequired">
         <translation language="nl"><![CDATA[Gelieve een waarde in te geven.]]></translation>
         <translation language="en"><![CDATA[Please provide a value.]]></translation>
@@ -852,7 +852,7 @@
         <translation language="es"><![CDATA[Ppor favor introduce un valor.]]></translation>
         <translation language="uk"><![CDATA[Вкажіть значення]]></translation>
         <translation language="sv"><![CDATA[Vänligen ange ett värde.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Prosím, zadejte hodnotu.]]></translation></item>
     </form_builder>
   </backend>
 </locale>
