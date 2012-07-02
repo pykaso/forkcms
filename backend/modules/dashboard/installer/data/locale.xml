@@ -15,7 +15,7 @@
         <translation language="uk"><![CDATA[Вся статистика]]></translation>
         <translation language="lt"><![CDATA[visos statistikos]]></translation>
         <translation language="sv"><![CDATA[all statistik]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[všechny statistiky]]></translation></item>
       <item type="label" name="TopKeywords">
         <translation language="nl"><![CDATA[top zoekwoorden]]></translation>
         <translation language="en"><![CDATA[top keywords]]></translation>
@@ -28,7 +28,7 @@
         <translation language="es"><![CDATA[palabras clave destacadas]]></translation>
         <translation language="uk"><![CDATA[Топ ключових слів]]></translation>
         <translation language="sv"><![CDATA[topp nyckelord]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší klíčová slova]]></translation></item>
       <item type="label" name="TopReferrers">
         <translation language="nl"><![CDATA[top verwijzende sites]]></translation>
         <translation language="en"><![CDATA[top referrers]]></translation>
@@ -41,7 +41,7 @@
         <translation language="es"><![CDATA[referentes destacados]]></translation>
         <translation language="uk"><![CDATA[Топ реферерів]]></translation>
         <translation language="sv"><![CDATA[topp referrers]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[nejlepší zdroje provozu]]></translation></item>
       <item type="message" name="EditYourDashboard">
         <translation language="nl"><![CDATA[Personaliseer je dashboard]]></translation>
         <translation language="en"><![CDATA[Personalize your dashboard]]></translation>
@@ -54,7 +54,7 @@
         <translation language="es"><![CDATA[Personaliza tu dashboard]]></translation>
         <translation language="lt"><![CDATA[Nusistatykite savo aplinką]]></translation>
         <translation language="sv"><![CDATA[Ändra din dashboard]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Personalizujte si svoji úvodní stránku.]]></translation></item>
       <item type="message" name="HelpEditDashboard">
         <translation language="nl"><![CDATA[Personaliseer je dashboard door de verschillende items te verslepen. Sluit de items om ze te verwijderen.]]></translation>
         <translation language="en"><![CDATA[Personalize your dashboard by dragging the boxes in the way you want. Close the boxes to remove them.]]></translation>
@@ -67,7 +67,7 @@
         <translation language="es"><![CDATA[Personaliza tu dashboard arrastrando las cajas donde quieres ponerlas. Cierra las cajas para eliminarlas.]]></translation>
         <translation language="lt"><![CDATA[Suasmeninkite savo įrankių juostą vilkdami langelius kur norite patalpinti. Norėdami uždaryti langelius, spauskite UŽDARYTI (X)]]></translation>
         <translation language="sv"><![CDATA[Ändra din dashboard genom flytta boxarna som du vill. Stäng boxarna för ta bort dem.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Personalizujte si svoji úvodní stránku přesouváním boxů jak se vám líbí. Zavřením boxu jej odstraníte.]]></translation></item>
       <item type="message" name="WillBeEnabledOnSave">
         <translation language="nl"><![CDATA[Deze widget zal geactiveerd worden bij het opslaan.]]></translation>
         <translation language="en"><![CDATA[This widget wil be reenabled on save.]]></translation>
@@ -79,7 +79,7 @@
         <translation language="fr"><![CDATA[Le widget sera ré-activé à la sauvegarde.]]></translation>
         <translation language="es"><![CDATA[Este widget será reactivado al guardar.]]></translation>
         <translation language="sv"><![CDATA[Denna widget kommer att återaktiveras vid sparande.]]></translation>
-      </item>
+      <translation language="cs"><![CDATA[Tento widget bude opětovně povolen po uložení.]]></translation></item>
     </dashboard>
   </backend>
 </locale>
