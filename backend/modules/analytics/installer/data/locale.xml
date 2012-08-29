@@ -29,7 +29,25 @@
         <translation language="uk"><![CDATA[Вся статистика]]></translation>
         <translation language="lt"><![CDATA[visa statistika]]></translation>
         <translation language="sv"><![CDATA[alla statistik]]></translation>
+<<<<<<< HEAD
       <translation language="cs"><![CDATA[všechny statistiky]]></translation></item>
+=======
+      </item>
+      <item type="label" name="ApiKey">
+        <translation language="nl"><![CDATA[API key]]></translation>
+        <translation language="en"><![CDATA[API key]]></translation>
+        <translation language="hu"><![CDATA[API key]]></translation>
+        <translation language="it"><![CDATA[API key]]></translation>
+        <translation language="ru"><![CDATA[API key]]></translation>
+        <translation language="zh"><![CDATA[API key]]></translation>
+        <translation language="de"><![CDATA[API key]]></translation>
+        <translation language="fr"><![CDATA[API key]]></translation>
+        <translation language="es"><![CDATA[API key]]></translation>
+        <translation language="uk"><![CDATA[API key]]></translation>
+        <translation language="lt"><![CDATA[API key]]></translation>
+        <translation language="sv"><![CDATA[API key]]></translation>
+      </item>
+>>>>>>> 640481441ed7830c421c27df30f5552b807f98b1
       <item type="label" name="AverageTimeOnPage">
         <translation language="nl"><![CDATA[gemiddelde tijd op pagina]]></translation>
         <translation language="en"><![CDATA[average time on page]]></translation>
@@ -613,6 +631,7 @@
         <translation language="sv"><![CDATA[Någonting gick fel vid hämtning av data från Google Analytics. Våra ursäkter för problemet. Vänligen försök igen senare.]]></translation>
       <translation language="cs"><![CDATA[Něco se pokazilo při shromažďování dat z Google Analytics. Omlouvámse se za vzniklé potíže. Zkuste to, prosím, později.]]></translation></item>
       <item type="message" name="LinkGoogleAccount">
+<<<<<<< HEAD
         <translation language="nl"><![CDATA[Koppel uw Google account aan Fork CMS.]]></translation>
         <translation language="en"><![CDATA[Link your Google account to Fork CMS.]]></translation>
         <translation language="it"><![CDATA[Collega il tuo account Google a Fork CMS.]]></translation>
@@ -624,6 +643,19 @@
         <translation language="es"><![CDATA[Vincula tu cuenta Google a Fork CMS.]]></translation>
         <translation language="sv"><![CDATA[Länka ditt Google konto till Fork CMS.]]></translation>
       <translation language="cs"><![CDATA[Propojit svůj účet Google s Fork CMS.]]></translation></item>
+=======
+        <translation language="nl"><![CDATA[Koppel uw Google account aan Fork CMS. <br /><br />Een API key kan je verkrijgen op <a href="https://code.google.com/apis/console/">Google API's console</a>.<br />Activeer de "Google Analytics" service onder "Services". <br />Je kan de API key vinden onder "API access".]]></translation>
+        <translation language="en"><![CDATA[Link your Google account to Fork CMS. <br /><br />An API key can be requested on <a href="https://code.google.com/apis/console/">Google API's console</a>.<br />Activate the "Google Analytics" service under "Services". <br />The API key can be found under "API access".]]></translation>
+        <translation language="it"><![CDATA[Collega il tuo account Google a Fork CMS.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="ru"><![CDATA[Подключите профиль Google.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="zh"><![CDATA[连接你的谷歌帐户到Fork CMS.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="hu"><![CDATA[Google fiók összekötése a Fork CMS-ből.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="fr"><![CDATA[Lier votre compte Google à Fork CMS.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="de"><![CDATA[Verbinde dein Google-Konto mit Fork CMS.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="es"><![CDATA[Vincula tu cuenta Google a Fork CMS.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+        <translation language="sv"><![CDATA[Länka ditt Google konto till Fork CMS.<br /><br /><a href="https://code.google.com/apis/console/">Request API key on Google API's console</a>.]]></translation>
+      </item>
+>>>>>>> 640481441ed7830c421c27df30f5552b807f98b1
       <item type="message" name="LinkWebsiteProfile">
         <translation language="nl"><![CDATA[Koppel een Google Analytics website profiel aan Fork CMS.]]></translation>
         <translation language="en"><![CDATA[Link your Google Analytics website profile to Fork CMS.]]></translation>
