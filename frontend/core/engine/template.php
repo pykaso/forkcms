@@ -244,6 +244,9 @@ class FrontendTemplate extends SpoonTemplate
 
 		// profiles
 		$this->mapModifier('profilesetting', array('FrontendTemplateModifiers', 'profileSetting'));
+
+		//tags
+		$this->mapModifier('rooturl', array('FrontendTemplateModifiers','rootUrl'));
 	}
 
 	/**
@@ -860,5 +863,15 @@ class FrontendTemplateModifiers
 
 		// return
 		return (string) $user->getSetting($setting);
+	}
+
+	public static function rootUrl($var = null, $pageId = 0)
+	{
+		$pageId = (int) $pageId;
+		// get info about the given page
+		$pageInfo = FrontendNavigation::getPageInfo($pageId);
+		// split URL into chunks
+		$chunks = (array) explode('/', $pageInfo['full_url']);
+		return (string) $chunks[0];
 	}
 }

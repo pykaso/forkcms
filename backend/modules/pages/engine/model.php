@@ -1249,8 +1249,10 @@ class BackendPagesModel
 			return self::getURL($URL, $id, $parentId, $isAction);
 		}
 
+		require_once '/external/strip_diacritics.php';
+		return  StripDiacritics::safeString(urldecode($URL));
 		// return the unique URL!
-		return $URL;
+		//return $URL;
 	}
 
 	/**

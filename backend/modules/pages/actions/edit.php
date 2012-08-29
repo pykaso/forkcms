@@ -538,14 +538,14 @@ class BackendPagesEdit extends BackendBaseActionEdit
 					BackendSearchModel::saveIndex($this->getModule(), $page['id'], array('title' => $page['title'], 'text' => $text));
 
 					// everything is saved, so redirect to the overview
-					$this->redirect(BackendModel::createURLForAction('edit') . '&id=' . $page['id'] . '&report=edited&var=' . urlencode($page['title']) . '&highlight=row-' . $page['id']);
+					//$this->redirect(BackendModel::createURLForAction('edit') . '&id=' . $page['id'] . '&report=edited&var=' . urlencode($page['title']) . '&highlight=row-' . $page['id']);
 				}
 
 				// draft
 				elseif($page['status'] == 'draft')
 				{
 					// everything is saved, so redirect to the edit action
-					$this->redirect(BackendModel::createURLForAction('edit') . '&id=' . $page['id'] . '&report=saved-as-draft&var=' . urlencode($page['title']) . '&highlight=row-' . $page['id'] . '&draft=' . $page['revision_id']);
+					//$this->redirect(BackendModel::createURLForAction('edit') . '&id=' . $page['id'] . '&report=saved-as-draft&var=' . urlencode($page['title']) . '&highlight=row-' . $page['id'] . '&draft=' . $page['revision_id']);
 				}
 			}
 		}

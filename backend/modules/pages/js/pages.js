@@ -16,9 +16,13 @@ jsBackend.pages =
 		// are we adding or editing?
 		if(typeof templates != 'undefined')
 		{
-			// load stuff for the page
-			jsBackend.pages.extras.init();
-			jsBackend.pages.template.init();
+			$(function() {
+				setTimeout(function(){
+					// load stuff for the page
+					jsBackend.pages.extras.init();
+					jsBackend.pages.template.init();
+				},1000);
+			});
 		}
 
 		// button to save to draft
@@ -102,7 +106,7 @@ jsBackend.pages.extras =
 		else $('.blockContentHTML', block).show();
 
 		// reset block indexes
-//		jsBackend.pages.extras.resetIndexes();
+		jsBackend.pages.extras.resetIndexes();
 
 		return addedVisual ? index : false;
 	},
@@ -162,7 +166,7 @@ jsBackend.pages.extras =
 		$('.templatePositionCurrentType[data-block-id=' + index + ']').remove();
 
 		// remove block
-		$('[name=block_extra_id_' + index + ']').parent('.contentBlock').remove();
+		$('[name=block_extra_id_' + index + ']').parents('.contentBlock').remove();
 
 		// after removing all from fallback; hide fallback
 		jsBackend.pages.extras.hideFallback();
@@ -332,6 +336,21 @@ jsBackend.pages.extras =
 		// mark content to be reset
 		$('.contentBlock').addClass('reset');
 
+		var blocksHtml = $('.reset [name^="block_html_"]');
+		var blocksExtraId = $('.reset [name^="block_extra_id_"]');
+		var blocksPosition = $('.reset [name^="block_position_"]');
+		var blocksVisible = $('.reset [name^="block_visible_"]');
+
+		var getParts = function(el,attr){
+			return el.prop(attr).match(/^([\w_]+)(\d+)$/)
+		};
+		var swapProps = function(el, index, attrs){
+			for (var pos in attrs){
+				var attr = attrs[pos], parts = getParts(el, attrs[pos]);
+				el.prop(attr, parts[1]+index);					
+			}
+		};
+
 		// reorder indexes of existing blocks:
 		// is doesn't really matter if a certain block at a certain position has a certain index; the important part
 		// is that they're all sequential without gaps and that the sequence of blocks inside a position is correct
@@ -344,22 +363,39 @@ jsBackend.pages.extras =
 			// update index of entry in template-view
 			$(this).attr('data-block-id', newIndex);
 
-			// update index occurences in the hidden data
-			var blockHtml = $('.reset [name=block_html_' + oldIndex + ']');
-			var blockExtraId = $('.reset [name=block_extra_id_' + oldIndex + ']');
-			var blockPosition = $('.reset [name=block_position_' + oldIndex + ']');
-			var blockVisible = $('.reset [name=block_visible_' + oldIndex + ']');
+			//update index occurences in the hidden data
+			// var blockHtml = $('.reset [name=block_html_' + oldIndex + ']');
+			// var blockExtraId = $('.reset [name=block_extra_id_' + oldIndex + ']');
+			// var blockPosition = $('.reset [name=block_position_' + oldIndex + ']');
+			// var blockVisible = $('.reset [name=block_visible_' + oldIndex + ']');
+			// blockHtml.prop('id', blockHtml.prop('id').replace(oldIndex, newIndex)).prop('name', blockHtml.prop('name').replace(oldIndex, newIndex));
+			// blockExtraId.prop('id', blockExtraId.prop('id').replace(oldIndex, newIndex)).prop('name', blockExtraId.prop('name').replace(oldIndex, newIndex));
+			// blockPosition.prop('id', blockPosition.prop('id').replace(oldIndex, newIndex)).prop('name', blockPosition.prop('name').replace(oldIndex, newIndex));
+			// blockVisible.prop('id', blockVisible.prop('id').replace(oldIndex, newIndex)).prop('name', blockVisible.prop('name').replace(oldIndex, newIndex));
+			
+			var getPos = function(position){
+				for (var index in blocksHtml){
+					if(index>0){
+						var el = $(blocksHtml[index]);
+						var origIndex = getParts(el,'id')[2];
+						if (position == origIndex){
+							return index;
+						}
+					}
+				}
+			}
 
-			blockHtml.prop('id', blockHtml.prop('id').replace(oldIndex, newIndex)).prop('name', blockHtml.prop('name').replace(oldIndex, newIndex));
-			blockExtraId.prop('id', blockExtraId.prop('id').replace(oldIndex, newIndex)).prop('name', blockExtraId.prop('name').replace(oldIndex, newIndex));
-			blockPosition.prop('id', blockPosition.prop('id').replace(oldIndex, newIndex)).prop('name', blockPosition.prop('name').replace(oldIndex, newIndex));
-			blockVisible.prop('id', blockVisible.prop('id').replace(oldIndex, newIndex)).prop('name', blockVisible.prop('name').replace(oldIndex, newIndex));
+			// console.log(getPos(oldIndex));
+			swapProps($(blocksHtml[getPos(oldIndex)]), newIndex, ['id','name']);
+			swapProps($(blocksExtraId[getPos(oldIndex)]), newIndex, ['id','name']);
+			swapProps($(blocksPosition[getPos(oldIndex)]), newIndex, ['id','name']);
+			swapProps($(blocksVisible[getPos(oldIndex)]), newIndex, ['id','name']);
 
 			// no longer mark as needing to be reset
-			blockExtraId.parent('.contentBlock').removeClass('reset');
+			//-blockExtraId.parent('.contentBlock').removeClass('reset');
 
 			// while we're at it, make sure the position is also correct
-			blockPosition.val($(this).parent().parent().attr('data-position'));
+			//-blockPosition.val($(this).parent().parent().attr('data-position'));
 		});
 
 		// mark all as having been reset
