@@ -154,7 +154,8 @@
       <item type="label" name="ShowDirections">
         <translation language="nl"><![CDATA[Route berekenen]]></translation>
         <translation language="en"><![CDATA[Show directions]]></translation>
-      <translation language="cs"><![CDATA[Zobrazit směry]]></translation>      </item>
+        <translation language="cs"><![CDATA[Zobrazit směry]]></translation>
+      </item>
       <item type="label" name="Start">
         <translation language="nl"><![CDATA[startpunt]]></translation>
         <translation language="en"><![CDATA[startpoint]]></translation>
