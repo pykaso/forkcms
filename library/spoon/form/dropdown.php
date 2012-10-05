@@ -487,7 +487,7 @@ class SpoonFormDropdown extends SpoonFormAttributes
 			else
 			{
 				// if the current value is equal to the submitted value
-				if($this->defaultElement[1] == $selected && $selected !== null) $output .= ' selected="selected"';
+				if($this->defaultElement[1] === $selected && $selected !== null) $output .= ' selected="selected"';
 			}
 
 			// end option
@@ -498,7 +498,7 @@ class SpoonFormDropdown extends SpoonFormAttributes
 		foreach($this->values as $label => $value)
 		{
 			// skip the default element
-			if(isset($this->defaultElement[1]) && $this->defaultElement[1] == $label) continue;
+			if(isset($this->defaultElement[1]) && $this->defaultElement[1] === $label) continue;
 
 			// value is an optgroup?
 			if($this->optionGroups[$label])
@@ -523,7 +523,7 @@ class SpoonFormDropdown extends SpoonFormAttributes
 					else
 					{
 						// if the current value is equal to the submitted value
-						if($key == $selected) $output .= ' selected="selected"';
+						if($key === $selected) $output .= ' selected="selected"';
 					}
 
 					// add custom attributes
@@ -562,7 +562,7 @@ class SpoonFormDropdown extends SpoonFormAttributes
 				else
 				{
 					// if the current value is equal to the submitted value
-					if($this->getSelected() !== null && $label == $selected) $output .= ' selected="selected"';
+					if($this->getSelected() !== null && (string) $label === $selected) $output .= ' selected="selected"';
 				}
 
 				// add custom attributes
@@ -617,8 +617,12 @@ class SpoonFormDropdown extends SpoonFormAttributes
 	 */
 	public function setDefaultElement($label, $value = null)
 	{
+		//print_r($this->values);
+
 		$this->defaultElement = array((string) $label, (string) $value);
 		if($value !== null) $this->values[$value] = (string) $label;
+
+		//print_r($this->values);
 		return $this;
 	}
 
