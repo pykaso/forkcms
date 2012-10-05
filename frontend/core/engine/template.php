@@ -246,7 +246,7 @@ class FrontendTemplate extends SpoonTemplate
 		$this->mapModifier('profilesetting', array('FrontendTemplateModifiers', 'profileSetting'));
 
 		//tags
-		$this->mapModifier('rooturl', array('FrontendTemplateModifiers','rootUrl'));
+		$this->mapModifier('urlpart', array('FrontendTemplateModifiers','urlPart'));
 	}
 
 	/**
@@ -865,13 +865,28 @@ class FrontendTemplateModifiers
 		return (string) $user->getSetting($setting);
 	}
 
-	public static function rootUrl($var = null, $pageId = 0)
+	/**
+	 * Get the part of URL
+	 * syntax {$var|urlpart:pageId[:part]}
+	 *
+	 * @param string[optional] $part The part of URL, can be "root","last",integer of any level
+	 * @return string
+	 */
+	public static function urlPart($var = null, $pageId = 0, $part='root')
 	{
 		$pageId = (int) $pageId;
 		// get info about the given page
 		$pageInfo = FrontendNavigation::getPageInfo($pageId);
 		// split URL into chunks
 		$chunks = (array) explode('/', $pageInfo['full_url']);
-		return (string) $chunks[0];
+		
+		$index = 0;
+		if($part == 'last'){
+			$index = count($chunks)-1;
+		}
+		elseif(intval($part) > 0){
+			$index = intval($part);
+		}
+		return (string) $chunks[$index];
 	}
 }

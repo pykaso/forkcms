@@ -243,7 +243,7 @@ class FrontendNavigation extends FrontendBaseObject
 	 */
 	public static function getNavigationHTML($type = 'page', $parentId = 0, $depth = null, $excludeIds = array(), $tpl = '/core/layout/templates/navigation.tpl', $depthCounter = 1)
 	{
-		// get navigation
+		//get navigation
 		$navigation = self::getNavigation();
 
 		// merge the exclude ids with the previously set exclude ids
@@ -258,11 +258,13 @@ class FrontendNavigation extends FrontendBaseObject
 
 		// special construction to merge home with it's immediate children
 		$mergedHome = false;
+		$counter = 0;
 		while(true)
 		{
 			// loop elements
 			foreach($navigation[$type][$parentId] as $id => $page)
 			{
+
 				// home is a special item, it should live on the same depth
 				if($page['page_id'] == 1 && !$mergedHome)
 				{
@@ -294,8 +296,12 @@ class FrontendNavigation extends FrontendBaseObject
 					continue;
 				}
 
+				//Additions by Pykaso.net
 				// if the item is in the selected page it should get an selected class
-				if(in_array($page['page_id'], self::$selectedPageIds)) $navigation[$type][$parentId][$id]['selected'] = true;
+				//if(in_array($page['page_id'], self::$selectedPageIds)) $navigation[$type][$parentId][$id]['selected'] = true;
+				//else $navigation[$type][$parentId][$id]['selected'] = false;
+				if($page['page_id'] == self::$selectedPageIds[0]){$navigation[$type][$parentId][$id]['selected'] = true;}
+				else if(in_array($page['page_id'], self::$selectedPageIds)){$navigation[$type][$parentId][$id]['in_path'] = true;}
 				else $navigation[$type][$parentId][$id]['selected'] = false;
 
 				// add nofollow attribute if needed
@@ -327,6 +333,12 @@ class FrontendNavigation extends FrontendBaseObject
 
 				// is this an external redirect?
 				if(isset($page['redirect_url']) && $page['redirect_url'] != '') $navigation[$type][$parentId][$id]['link'] = $page['redirect_url'];
+
+				//Additions by Pykaso.net
+				$navigation[$type][$parentId][$id]['index'] = $counter;
+				$navigation[$type][$parentId][$id]['first'] = ($counter == 0);
+				$navigation[$type][$parentId][$id]['last'] = ((count($navigation[$type][$parentId])-1) == $counter);
+				$counter++;
 			}
 
 			// break the loop (it is only used for the special construction with home)
@@ -338,6 +350,20 @@ class FrontendNavigation extends FrontendBaseObject
 
 		// assign navigation to template
 		$navigationTpl->assign('navigation', $navigation[$type][$parentId]);
+
+		//Pykaso.net
+		//add link to parent page
+		if(array_key_exists($parentId, $navigation[$type][1])){
+			$parent = $navigation[$type][1][$parentId];
+			if($parent['tree_type'] != 'redirect'){			
+				$parent['link'] = FrontendNavigation::getURL($parent['page_id']);
+				//print_r(self::$selectedPageIds);
+				$parent['selected'] = ($parent['page_id'] == self::$selectedPageIds[0]);
+				$parent['nofollow'] = ($parent['no_follow'] === true);
+
+				$navigationTpl->assign('parent', $parent);
+			}
+		}
 
 		// return parsed content
 		return $navigationTpl->getContent(FRONTEND_PATH . (string) $tpl, true, true);
