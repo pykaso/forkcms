@@ -466,98 +466,97 @@ class SpoonEmail
 		$this->content['html'] = $this->encodeContent($this->content['html']);
 		$this->content['plain'] = $this->encodeContent($this->content['plain']);
 
-		// build headers
-		$this->addHeader('Date: ' . SpoonDate::getDate('r'));
-		$this->addHeader('From: ' . $this->from['name'] . ' <' . $this->from['email'] . '>');
+		$this->headers = '';
+        // build headers
+        $this->addHeader('Date: ' . SpoonDate::getDate('r'));
+        $this->addHeader('From: ' . $this->from['name'] . ' <' . $this->from['email'] . '>');
 
-		// check mailmethod, some media don't need these (like mail())
-		if($this->method == 'smtp')
-		{
-			// set subject
-			$this->addHeader('Subject: ' . $this->subject);
+        // check mailmethod, some media don't need these (like mail())
+        if ($this->method == 'smtp') {
+            // set subject
+            $this->addHeader('Subject: ' . $this->subject);
 
-			// set general To: header. useful if you prefer to customize it
-			if(!empty($this->to['name'])) $this->addHeader('To: ' . $this->to['name'] . ' <' . $this->to['email'] . '>');
+            // set general To: header. useful if you prefer to customize it
+            if (!empty($this->to['name'])) $this->addHeader('To: ' . $this->to['name'] . ' <' . $this->to['email'] . '>');
 
-			// no To: set so we add recipients to the headers
-			else $this->addHeader('To: ' . $this->reformatRecipientString($this->recipients));
-		}
+            // no To: set so we add recipients to the headers
+            else $this->addHeader('To: ' . $this->reformatRecipientString($this->recipients));
+        }
 
-		// loop and add CCs to headers
-		if(!empty($this->CC)) $this->addHeader('cc: ' . $this->reformatRecipientString($this->CC));
+        // loop and add CCs to headers
+        if (!empty($this->CC)) $this->addHeader('cc: ' . $this->reformatRecipientString($this->CC));
 
-		// loop and add BCCs to headers
-		if(!empty($this->BCC)) $this->addHeader('bcc: ' . $this->reformatRecipientString($this->BCC));
+        // loop and add BCCs to headers
+        if (!empty($this->BCC)) $this->addHeader('bcc: ' . $this->reformatRecipientString($this->BCC));
 
-		// add Reply-To header to headers
-		if(!empty($this->replyTo)) $this->addHeader('Reply-To: ' . $this->reformatRecipientString($this->replyTo));
+        // add Reply-To header to headers
+        if (!empty($this->replyTo)) $this->addHeader('Reply-To: ' . $this->reformatRecipientString($this->replyTo));
 
-		// if attachments are set, change the mail content type
-		if(!empty($this->attachments)) $this->contentType = 'multipart/mixed';
+        // if attachments are set, change the mail content type
+        if (!empty($this->attachments)) $this->contentType = 'multipart/mixed';
 
-		// continue the rest of the headers
-		$this->addHeader('X-Priority: ' . $this->priority);
-		$this->addHeader('X-Mailer: SpoonEmail (part of Spoon library - http://www.spoon-library.com)');
-		$this->addHeader('MIME-Version: 1.0');
-		$this->addHeader('Content-Type: ' . $this->contentType . '; charset="' . $this->charset . '"; boundary="' . $boundary . '"' . self::LF);
-		$this->addHeader('Importance: normal');
-		$this->addHeader('Priority: normal');
-		$this->addHeader('This is a multi-part message in MIME format.' . self::LF);
-		$this->addHeader('--' . $boundary);
+        // continue the rest of the headers
+        $this->addHeader('X-Priority: ' . $this->priority);
+        $this->addHeader('X-Mailer: SpoonEmail (part of Spoon library - http://www.spoon-library.com)');
+        $this->addHeader('MIME-Version: 1.0');
+        $this->addHeader('Content-Type: ' . $this->contentType . '; charset="' . $this->charset . '"; boundary="' . $boundary . '"');
+        $this->addHeader('Importance: normal');
+        $this->addHeader('Priority: normal');
+        $headers = $this->headers;
 
-		// attachments found
-		if(!empty($this->attachments))
-		{
-			// means we need a second boundary defined to send html/plain mails.
-			$this->addHeader('Content-Type: multipart/alternative; boundary="' . $secondBoundary . '"' . self::LF);
-			$this->addHeader('--' . $secondBoundary);
-			$this->addHeader('Content-Type: text/plain; charset="' . $this->charset . '"');
-			$this->addHeader('Content-Disposition: inline');
-			$this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
-			$this->addHeader($this->content['plain'] . self::LF);
-			$this->addHeader('--' . $secondBoundary);
-			$this->addHeader('Content-Type: text/html; charset="' . $this->charset . '"');
-			$this->addHeader('Content-Disposition: inline');
-			$this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
-			$this->addHeader($this->content['html'] . self::LF);
-			$this->addHeader('--' . $secondBoundary . '--');
-		}
+        $this->headers = '';
 
-		// no attachments
-		else
-		{
-			// continue the rest of the headers
-			$this->addHeader('Content-Type: text/plain; charset="' . $this->charset . '"');
-			$this->addHeader('Content-Disposition: inline');
-			$this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
-			$this->addHeader($this->content['plain'] . self::LF);
-			$this->addHeader('--' . $boundary);
-			$this->addHeader('Content-Type: text/html; charset="' . $this->charset . '"');
-			$this->addHeader('Content-Disposition: inline');
-			$this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
-			$this->addHeader($this->content['html'] . self::LF);
-		}
+        $this->addHeader('This is a multi-part message in MIME format.' . self::LF);
+        $this->addHeader('--' . $boundary);
 
-		// attachments found
-		if(!empty($this->attachments))
-		{
-			// loop attachments
-			foreach($this->attachments as $attachment)
-			{
-				// set attachment headers
-				$this->addHeader('--' . $boundary);
-				$this->addHeader('Content-Type: ' . $attachment['type'] . '; name="' . $attachment['name'] . '"');
-				$this->addHeader('Content-Transfer-Encoding: ' . $attachment['encoding']);
-				$this->addHeader('Content-Disposition: ' . $attachment['disposition'] . '; filename="' . $attachment['name'] . '"' . self::LF);
-				$this->addHeader($attachment['data'] . self::LF);
-			}
-		}
+        // attachments found
+        if (!empty($this->attachments)) {
+            // means we need a second boundary defined to send html/plain mails.
+            $this->addHeader('Content-Type: multipart/alternative; boundary="' . $secondBoundary . '"' . self::LF);
+            $this->addHeader('--' . $secondBoundary);
+            $this->addHeader('Content-Type: text/plain; charset="' . $this->charset . '"');
+            $this->addHeader('Content-Disposition: inline');
+            $this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
+            $this->addHeader($this->content['plain'] . self::LF);
+            $this->addHeader('--' . $secondBoundary);
+            $this->addHeader('Content-Type: text/html; charset="' . $this->charset . '"');
+            $this->addHeader('Content-Disposition: inline');
+            $this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
+            $this->addHeader($this->content['html'] . self::LF);
+            $this->addHeader('--' . $secondBoundary . '--');
+        } // no attachments
+        else {
+            // continue the rest of the headers
+            $this->addHeader('Content-Type: text/plain; charset="' . $this->charset . '"');
+            $this->addHeader('Content-Disposition: inline');
+            $this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
+            $this->addHeader($this->content['plain'] . self::LF);
+            $this->addHeader('--' . $boundary);
+            $this->addHeader('Content-Type: text/html; charset="' . $this->charset . '"');
+            $this->addHeader('Content-Disposition: inline');
+            $this->addHeader('Content-Transfer-Encoding: ' . $this->contentTransferEncoding . self::LF);
+            $this->addHeader($this->content['html'] . self::LF);
+        }
 
-		// final boundary, closes the headers
-		$this->headers .= '--' . $boundary . '--';
+        // attachments found
+        if (!empty($this->attachments)) {
+            // loop attachments
+            foreach ($this->attachments as $attachment) {
+                // set attachment headers
+                $this->addHeader('--' . $boundary);
+                $this->addHeader('Content-Type: ' . $attachment['type'] . '; name="' . $attachment['name'] . '"');
+                $this->addHeader('Content-Transfer-Encoding: ' . $attachment['encoding']);
+                $this->addHeader('Content-Disposition: ' . $attachment['disposition'] . '; filename="' . $attachment['name'] . '"' . self::LF);
+                $this->addHeader($attachment['data'] . self::LF);
+            }
+        }
+
+        // final boundary, closes the headers
+        $this->headers .= '--' . $boundary . '--';
+        $body = $this->headers;
 
 		// return headers string
-		return $this->headers;
+		return array($headers, $body);
 	}
 
 
@@ -696,7 +695,9 @@ class SpoonEmail
 		if(empty($this->recipients)) throw new SpoonEmailException('Sending an email to no one is fairly silly. Add some recipients first.');
 
 		// builds the headers for this email
-		$headers = $this->getHeaders();
+		$headersAndBody = $this->getHeaders();
+        $headers = $headersAndBody[0];
+        $body = $headersAndBody[1];
 
 		// start with failed status
 		$status = false;
@@ -721,7 +722,7 @@ class SpoonEmail
 			// send with PHP's native mail() function
 			case 'mail':
 				// send mail
-				$status = mail($this->reformatRecipientString($this->recipients), $this->subject, null, $headers);
+				$status = mail($this->reformatRecipientString($this->recipients), $this->subject, $body, $headers);
 			break;
 
 			// no one should be here
